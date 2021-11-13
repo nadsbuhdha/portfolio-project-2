@@ -1,3 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+
 body {
-    background-color: blue;
+    background-image: url(../images/background_image.webp);
+    background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size: cover;
+  }
+
+
+nav {
+    background-color: white;
+    border-radius: 12px;
+    margin: auto;
+    max-width: 30%;
+    transform: translate(10px, 30px);
+    padding: 5px;
+}
+
+nav h1 {
+    text-align: center;
 }
