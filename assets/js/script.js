@@ -105,3 +105,29 @@ answer: 2
 }
 
 ]
+
+// constants /
+
+const CORRECT_SCORE = 5;
+const MAX_QUESTIONS = 8;
+
+// start game function /
+
+function startGame() {
+    questionCounter = 0;
+    score = 0;
+    availableQuestions = [...questions];
+    console.log(availableQuestions);
+    newQuestion()
+}
+
+
+function newQuestion () {
+    questionCounter++
+    const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+    currentQuestion = availableQuestions[questionIndex]
+    question.innerText = currentQuestion.question;
+
+}
+
+startGame();
