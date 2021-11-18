@@ -113,7 +113,7 @@ const MAX_QUESTIONS = 8;
 
 // start game function /
 
-function startGame() {
+function runGame() {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
@@ -121,13 +121,26 @@ function startGame() {
     newQuestion()
 }
 
-
+// question selection and ramomizer /
 function newQuestion () {
     questionCounter++
+    //randomise questions 
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex]
     question.innerText = currentQuestion.question;
+  
+ //for loop test   
+ //for (let i = 0; i < choices.length; i++) {
+   //  const number = choice.dataset['number'];
+     //choice.innerText = currentQuestion ['choice' + number];
+     
+///}
+
+choices.forEach(choice =>{
+    const number = choice.dataset['number'];
+    choice.innerText = currentQuestion ['choice' + number];
+})
 
 }
 
-startGame();
+runGame();
