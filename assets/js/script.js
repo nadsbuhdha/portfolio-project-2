@@ -123,6 +123,7 @@ function runGame() {
 
 // question selection and ramomizer /
 function newQuestion () {
+
     questionCounter++
     //randomise questions 
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
@@ -142,6 +143,11 @@ choices.forEach(choice =>{
 });
 availableQuestions.splice(questionIndex,1);
 acceptingAnswers = true
+
+if (availableQuestions === 0 || questionCounter >= MAX_QUESTIONS) {
+ return window.location.replace ('gameover.html');
+}
+     
 
 }
 

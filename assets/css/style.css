@@ -46,8 +46,6 @@ nav p {
   background-color: white;
   border-radius: 12px;
   align-items: center;
-  margin: auto;
-  text-align: center;
   transform: translate(0px, 50px);
   padding-bottom: 200px;
   justify-content: center;
@@ -85,6 +83,7 @@ flex-direction: column;
 #game-box h2 {
   margin-bottom: 30px;
   font-size: 30px;
+  text-align: center;
 }
 
 /* game page styling */
@@ -114,4 +113,8 @@ flex-direction: column;
   transform:scale(1.1);
   cursor:pointer;
 
+}
+
+.choice-answer {
+  width:100%
 }
