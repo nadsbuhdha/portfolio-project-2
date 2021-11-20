@@ -147,7 +147,15 @@ acceptingAnswers = true
 
 choices.forEach(choice => {
     choice.addEventListener("click", Event => {
-        console.log (Event.target);
+        
+        if (!acceptingAnswers) return;
+
+        acceptingAnswers = false
+        const selectedChoice = Event.target;
+        const selectedAnswer = selectedChoice.dataset['number'];
+        console.log(selectedAnswer)
+        newQuestion();
+
     })
 })
 
