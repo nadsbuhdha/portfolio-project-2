@@ -2,7 +2,7 @@ const question = document.getElementById('question');
 const choices = Array.from(document.getElementsByClassName('choice-answer'))
 
 let currentQuestion = {};
-let acceptingAnswers = true;
+let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
@@ -139,8 +139,16 @@ function newQuestion () {
 choices.forEach(choice =>{
     const number = choice.dataset['number'];
     choice.innerText = currentQuestion ['choice' + number];
-})
+});
+availableQuestions.splice(questionIndex,1);
+acceptingAnswers = true
 
 }
+
+choices.forEach(choice => {
+    choice.addEventListener("click", Event => {
+        console.log (Event.target);
+    })
+})
 
 runGame();
