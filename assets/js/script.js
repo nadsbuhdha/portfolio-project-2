@@ -1,11 +1,17 @@
 const question = document.getElementById('question');
 const choices = Array.from(document.getElementsByClassName('choice-answer'))
 
+// starting variables 
 let currentQuestion = {};
 let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
+
+// constants /
+
+const CORRECT_SCORE = 5;
+const MAX_QUESTIONS = 8;
 
 //** array of questions */
 let questions = [
@@ -106,10 +112,6 @@ answer: 2
 
 ]
 
-// constants /
-
-const CORRECT_SCORE = 5;
-const MAX_QUESTIONS = 8;
 
 // start game function /
 
@@ -175,7 +177,7 @@ choices.forEach(choice => {
         selectedChoice.parentElement.classList.remove(rightWrong)
 
 
-        newQuestion();}, 1000)
+        newQuestion();}, 1200)
 
     })
  })
