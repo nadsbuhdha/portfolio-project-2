@@ -170,10 +170,12 @@ choices.forEach(choice => {
             rightWrong = 'correct-answer';
          }
          
-        selectedChoice.parentElement.classList.add(rightWrong)
+        selectedChoice.parentElement.classList.add(rightWrong);
+        setTimeout(() => {
+        selectedChoice.parentElement.classList.remove(rightWrong)
 
 
-        newQuestion();
+        newQuestion();}, 1000)
 
     })
  })
