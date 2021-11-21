@@ -1,5 +1,8 @@
 const question = document.getElementById('question');
 const choices = Array.from(document.getElementsByClassName('choice-answer'))
+const scoreDisplay = document.getElementById ('score');
+const questionDisplay = document.getElementById ('qcounter')
+
 
 // starting variables 
 let currentQuestion = {};
@@ -127,6 +130,8 @@ function runGame() {
 function newQuestion () {
 
     questionCounter++
+
+    questionDisplay.innerText = questionCounter + '/' + MAX_QUESTIONS;
     //randomise questions 
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex]
