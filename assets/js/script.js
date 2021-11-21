@@ -157,12 +157,34 @@ choices.forEach(choice => {
         if (!acceptingAnswers) return;
 
         acceptingAnswers = false
-        const selectedChoice = Event.target;
-        const selectedAnswer = selectedChoice.dataset['number'];
-        console.log(selectedAnswer)
+         const selectedChoice = Event.target;
+         const selectedAnswer = selectedChoice.dataset['number'];
+        console.log(selectedAnswer == currentQuestion.answer)
+
+        
+        // change colour for right or wrong answer 
+        let rightWrong = 'incorrect-answer'
+    
+
+        if (selectedAnswer == currentQuestion.answer) {
+            rightWrong = 'correct-answer';
+         }
+         
+        selectedChoice.parentElement.classList.add(rightWrong)
+
+
         newQuestion();
 
     })
-})
+ })
+
+ //function correctAnswerColor (element, dataset) {
+   // if (selectedAnswer == currentQuestion.answer) {
+     //   selectedChoice.ParentElement.classlist.add('correct-answer')
+    //} else {
+      //  element.classlist.add('incorrect-answer') }
+ // }
+
+
 
 runGame();

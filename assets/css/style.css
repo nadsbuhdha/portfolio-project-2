@@ -118,3 +118,14 @@ flex-direction: column;
 .choice-answer {
   width:100%
 }
+
+
+/*correct and incorrect colour buttons */
+
+.correct-answer {
+  background-color: rgb(12, 226, 23);
+}
+
+.incorrect-answer {
+  background-color: rgb(214, 16, 56);
+}
