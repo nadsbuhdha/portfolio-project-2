@@ -171,12 +171,17 @@ choices.forEach(choice => {
         
         // change colour for right or wrong answer 
         let rightWrong = 'incorrect-answer'
-    
+
+       
 
         if (selectedAnswer == currentQuestion.answer) {
             rightWrong = 'correct-answer';
          }
          
+         if (rightWrong === 'correct-answer') {
+            scoreIncrease(CORRECT_SCORE);
+        }    
+
         selectedChoice.parentElement.classList.add(rightWrong);
         setTimeout(() => {
         selectedChoice.parentElement.classList.remove(rightWrong)
@@ -184,7 +189,11 @@ choices.forEach(choice => {
 
         newQuestion();}, 1200)
 
+        
+
     })
+
+    
  })
 
  //function correctAnswerColor (element, dataset) {
@@ -194,6 +203,11 @@ choices.forEach(choice => {
       //  element.classlist.add('incorrect-answer') }
  // }
 
+ function scoreIncrease(num) {
+     score += num
+     scoreDisplay.innerText = score;
+
+ }
 
 
 runGame();
