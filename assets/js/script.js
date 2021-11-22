@@ -3,11 +3,11 @@ const choices = Array.from(document.getElementsByClassName('choice-answer'))
 const scoreDisplay = document.getElementById ('score');
 const questionDisplay = document.getElementById ('qcounter');
 
-
-
+//score feedback 
+window.onload = function scoreFeedback() {
 const finalScores = document.getElementById('player-score');
 const myScore = localStorage.getItem('finalScore')
-finalScores.innerText = myScore
+finalScores.innerText = myScore}
 
 
 
@@ -23,7 +23,7 @@ let availableQuestions = [];
 
 const CORRECT_SCORE = 5;
 const INCORRECT_SCORE = 2;
-const MAX_QUESTIONS = 2;
+const MAX_QUESTIONS = 5;
 
 
 // sounds 
