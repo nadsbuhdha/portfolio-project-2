@@ -11,11 +11,19 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
+
 // constants /
 
 const CORRECT_SCORE = 5;
-const MAX_QUESTIONS = 8;
 const INCORRECT_SCORE = 2;
+const MAX_QUESTIONS = 8;
+
+
+// sounds 
+
+let correctSound = new Audio ('assets/audio/correctsound.mp3')
+let incorrectSound = new Audio ('assets/audio/incorrect_sound.mp3')
+
 
 //** array of questions */
 let questions = [
@@ -132,6 +140,8 @@ function newQuestion () {
 
     questionCounter++
 
+
+    //display question number 
     questionDisplay.innerText = questionCounter + '/' + MAX_QUESTIONS;
     //randomise questions 
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
@@ -185,6 +195,14 @@ choices.forEach(choice => {
             scoreDecrease(INCORRECT_SCORE);
         }
 
+        // sound effect test
+        if (selectedAnswer == currentQuestion.answer) {
+            correctSound.play()
+         } else {
+             incorrectSound.play()
+         }
+
+
         selectedChoice.parentElement.classList.add(rightWrong);
         setTimeout(() => {
         selectedChoice.parentElement.classList.remove(rightWrong)
@@ -206,12 +224,15 @@ choices.forEach(choice => {
       //  element.classlist.add('incorrect-answer') }
  // }
 
+
+ // increase score for correct answer
  function scoreIncrease(num) {
      score += num
      scoreDisplay.innerText = score;
 
  }
 
+ //decreases score for incorrect answer
  function scoreDecrease(num) 
  {
      score -= num
