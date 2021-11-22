@@ -208,7 +208,7 @@ choices.forEach(choice => {
         selectedChoice.parentElement.classList.remove(rightWrong)
 
 
-        newQuestion();}, 1200)
+        newQuestion();}, 1500)
 
         
 

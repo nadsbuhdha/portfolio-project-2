@@ -11,6 +11,7 @@ background-repeat: no-repeat;
 background-position: center center;
 background-attachment: fixed;
 background-size: cover;
+min-height: 100vh;
   }
 
 h1, h2, h3 {font-family: Indie Flower, sans-serif}
@@ -21,7 +22,7 @@ nav {
     border-radius: 12px;
     margin: auto;
     max-width: 30%;
-    transform: translate(10px, 30px);
+    transform: translate(0px, 30px);
     padding: 5px;
 
 }
@@ -37,6 +38,11 @@ nav h1 {
 
 nav p {
   font-size: 20px;
+}
+
+#b2sheader {
+  text-decoration: none;
+  color:black
 }
 
 /* container styling */
@@ -161,3 +167,49 @@ flex-direction: column;
     width: 70px;
     border-style: solid;
 }
+
+/** footer styling */ 
+
+.stickyfooter
+{
+  position: sticky;
+  top:100%;
+}
+
+  footer {
+    background-color:black;
+    color: black;
+    clear: both;
+    
+  }
+  
+  footer ul {
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  footer ul li {
+    display: inline;
+  }
+  
+  footer li i {
+    font-size: 150%;
+    color: white;
+  }
+  
+  .sm-icons i {
+    padding: 3%;
+    margin: 1%;
+  }
+  
+  .sm-icons {
+    padding-top: 25px;
+  }
+  
+  .sm-icons a {
+    text-decoration: none;
+  }
+
+  
+  
+  
