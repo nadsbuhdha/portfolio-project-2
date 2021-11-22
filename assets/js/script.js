@@ -1,7 +1,14 @@
 const question = document.getElementById('question');
 const choices = Array.from(document.getElementsByClassName('choice-answer'))
 const scoreDisplay = document.getElementById ('score');
-const questionDisplay = document.getElementById ('qcounter')
+const questionDisplay = document.getElementById ('qcounter');
+
+
+
+const finalScores = document.getElementById('player-score');
+const myScore = localStorage.getItem('finalScore')
+finalScores.innerText = myScore
+
 
 
 // starting variables 
@@ -16,7 +23,7 @@ let availableQuestions = [];
 
 const CORRECT_SCORE = 5;
 const INCORRECT_SCORE = 2;
-const MAX_QUESTIONS = 8;
+const MAX_QUESTIONS = 2;
 
 
 // sounds 
@@ -163,7 +170,11 @@ availableQuestions.splice(questionIndex,1);
 acceptingAnswers = true
 
 if (availableQuestions === 0 || questionCounter >= MAX_QUESTIONS) {
- return window.location.replace ('gameover.html');
+
+localStorage.setItem('finalScore', score);
+ 
+return window.location.replace ('gameover.html');
+ 
 }
      
 
@@ -238,6 +249,11 @@ choices.forEach(choice => {
      score -= num
      scoreDisplay.innerText = score;
  }
+
+ 
+ 
+ 
+
 
 
 runGame();
