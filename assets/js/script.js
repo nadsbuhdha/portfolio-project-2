@@ -15,6 +15,7 @@ let availableQuestions = [];
 
 const CORRECT_SCORE = 5;
 const MAX_QUESTIONS = 8;
+const INCORRECT_SCORE = 2;
 
 //** array of questions */
 let questions = [
@@ -180,7 +181,9 @@ choices.forEach(choice => {
          
          if (rightWrong === 'correct-answer') {
             scoreIncrease(CORRECT_SCORE);
-        }    
+        }   else {
+            scoreDecrease(INCORRECT_SCORE);
+        }
 
         selectedChoice.parentElement.classList.add(rightWrong);
         setTimeout(() => {
@@ -207,6 +210,12 @@ choices.forEach(choice => {
      score += num
      scoreDisplay.innerText = score;
 
+ }
+
+ function scoreDecrease(num) 
+ {
+     score -= num
+     scoreDisplay.innerText = score;
  }
 
 
