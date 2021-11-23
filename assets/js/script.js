@@ -28,7 +28,7 @@ const MAX_QUESTIONS = 5;
 
 // sounds 
 
-let correctSound = new Audio ('assets/audio/correctsound.mp3')
+let correctSound = new Audio ('assets/audio/correct_sound_edited.mp3')
 let incorrectSound = new Audio ('assets/audio/incorrect_sound.mp3')
 
 
