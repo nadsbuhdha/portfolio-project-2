@@ -187,7 +187,7 @@ flex-direction: column;
   position: absolute;
   top: 100%;
   width: 100%;
-  height: 14%;
+ 
 }
 
   footer {
@@ -208,16 +208,16 @@ flex-direction: column;
   
   footer li i {
     font-size: 150%;
-    color: white;
+    color: rgba(255,208,224,255);
   }
   
   .sm-icons i {
-    padding: 3%;
+    padding: 1%;
     margin: 1%;
   }
   
   .sm-icons {
-    padding-top: 25px;
+    padding: 25px;
   }
   
   .sm-icons a {
@@ -225,7 +225,13 @@ flex-direction: column;
   }
 
   
-  html {
-    height:100vh
+  .sm-icons :hover {
+    transition: color 0.4s;
+    color:  rgba(111,216,187,255);
+    
   }
   
+  
+#gamefooter {
+  top: 130%;
+}
