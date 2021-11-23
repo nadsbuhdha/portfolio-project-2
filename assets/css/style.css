@@ -178,6 +178,20 @@ flex-direction: column;
 
 
 
+/** rules page styleing */
+
+.rulesabout h3 {
+  padding-bottom: 15px;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.rulesabout p {
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+
 
 
 /** footer styling */ 
