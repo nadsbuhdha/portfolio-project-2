@@ -255,3 +255,22 @@ flex-direction: column;
 #gamefooter {
   top: 130%;
 }
+
+/** media queries */
+
+@media (max-width: 700px) {
+  #gamefooter {
+    top: 150%;
+
+  }
+
+  #nav-centre {
+    max-width: 50%;
+  }
+
+ .container {
+  width: 70vw;
+ }
+
+}
+
