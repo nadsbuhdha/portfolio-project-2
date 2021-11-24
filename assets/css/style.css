@@ -258,6 +258,11 @@ flex-direction: column;
 
 /** media queries */
 
+
+@media (max-width: 1000px) {
+  #rulesfooter { top: 130%; }
+}
+
 @media (max-width: 700px) {
   #gamefooter {
     top: 150%;
@@ -272,5 +277,21 @@ flex-direction: column;
   width: 70vw;
  }
 
+#game-box h2{ font-size: 25px;
+
 }
+
+.choice-container {
+  font-size :25px;
+}
+
+.choice-letter {
+  height: 40px;
+}
+
+#rulesfooter {
+  top: 160%
+}
+}
+
 

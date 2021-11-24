@@ -220,7 +220,8 @@ choices.forEach(choice => {
 
 
         newQuestion();}, 1500)
-
+        
+        
         
 
     })
