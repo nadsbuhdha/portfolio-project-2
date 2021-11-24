@@ -8,8 +8,8 @@ window.onload = function scoreFeedback() {
 const finalScores = document.getElementById('player-score');
 const myScore = localStorage.getItem('finalScore')
 finalScores.innerText = myScore
-// create if statement to change colour ?
 
+//  if statement to change colour of users final score 
 if (myScore <= 0 ) { 
     finalScores.style.color = 'red'
 }
