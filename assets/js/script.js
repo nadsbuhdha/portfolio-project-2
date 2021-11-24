@@ -7,7 +7,16 @@ const questionDisplay = document.getElementById ('qcounter');
 window.onload = function scoreFeedback() {
 const finalScores = document.getElementById('player-score');
 const myScore = localStorage.getItem('finalScore')
-finalScores.innerText = myScore}
+finalScores.innerText = myScore
+// create if statement to change colour ?
+
+if (myScore <= 0 ) { 
+    finalScores.style.color = 'red'
+}
+else {
+    finalScores.style.color = 'green'
+}
+}
 
 
 
@@ -155,12 +164,6 @@ function newQuestion () {
     currentQuestion = availableQuestions[questionIndex]
     question.innerText = currentQuestion.question;
   
- //for loop test   
- //for (let i = 0; i < choices.length; i++) {
-   //  const number = choice.dataset['number'];
-     //choice.innerText = currentQuestion ['choice' + number];
-     
-///}
 
 choices.forEach(choice =>{
     const number = choice.dataset['number'];
@@ -169,8 +172,10 @@ choices.forEach(choice =>{
 availableQuestions.splice(questionIndex,1);
 acceptingAnswers = true
 
+//question counters
 if (availableQuestions === 0 || questionCounter >= MAX_QUESTIONS) {
 
+//store users score locally    
 localStorage.setItem('finalScore', score);
  
 return window.location.replace ('gameover.html');
@@ -206,7 +211,7 @@ choices.forEach(choice => {
             scoreDecrease(INCORRECT_SCORE);
         }
 
-        // sound effect test
+        // sound effect for correct and incorrect answer
         if (selectedAnswer == currentQuestion.answer) {
             correctSound.play()
          } else {
@@ -228,14 +233,6 @@ choices.forEach(choice => {
 
     
  })
-
- //function correctAnswerColor (element, dataset) {
-   // if (selectedAnswer == currentQuestion.answer) {
-     //   selectedChoice.ParentElement.classlist.add('correct-answer')
-    //} else {
-      //  element.classlist.add('incorrect-answer') }
- // }
-
 
  // increase score for correct answer
  function scoreIncrease(num) {
