@@ -206,6 +206,33 @@ flex-direction: column;
   font-size: 20px;
 }
 
+/** form box */
+
+.contact-form {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  margin-top: 25px
+}
+
+#full_name, #email {
+  border-style: solid;
+    justify-content: center;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: thin;
+    border-radius: 5px;
+}
+
+#messageinput {
+  border-style: solid;
+    justify-content: center;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
 
 /** footer styling */ 
 
@@ -260,6 +287,10 @@ flex-direction: column;
   
   
 #gamefooter {
+  top: 130%;
+}
+
+#gofooter {
   top: 130%;
 }
 
