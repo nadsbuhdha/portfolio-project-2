@@ -287,13 +287,15 @@ flex-direction: column;
 
 .join-button {
   margin: 10px;
-    width: 90px;
+    width: 120px;
     margin-left: auto;
     margin-right: auto;
     border-style: solid;
-    height: 30px;
+    height: 40px;
     border-radius: 10px;
-    background-color: pink
+    background-color: pink;
+    font-family: Indie Flower, sans-serif ;
+    font-size: 18px;
 }
 
 .join-button:hover {
@@ -382,16 +384,16 @@ flex-direction: column;
   width: 70vw;
  }
 
-#game-box h2{ font-size: 25px;
+#game-box h2{ font-size: 23px;
 
 }
 
 .choice-container {
-  font-size :25px;
+  font-size :23px;
 }
 
 .choice-letter {
-  height: 40px;
+  height: 38px;
 }
 
 #rulesfooter {
@@ -401,6 +403,14 @@ flex-direction: column;
 
 @media (max-width: 550px) {
   #feedback {
-    max-width: 40vh;
+    max-width: 40vh;  
+  }
+
+  .contact-form h3 {
+    width: 230px;
+  }
+
+  #messageinput {
+    width: 230px;
   }
 }
