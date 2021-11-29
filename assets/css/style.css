@@ -211,7 +211,7 @@ flex-direction: column;
 #feedback {
   text-align: center;
   font-size: 20px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   margin-left: auto;
     margin-right: AUTO;
   
@@ -221,13 +221,35 @@ flex-direction: column;
   margin-bottom: 0px;
 }
 
+.endbtn {font-size:18px;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: black;
+  background: rgba(255,208,224,255);
+  border-style:solid;
+  border-color: black;
+  padding: 7px;
+  font-family: Indie Flower, sans-serif;
+  border-radius: 10px;
+  max-width: 90px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.endbtn:hover {
+  transition: transform 130ms;
+  transform:scale(1.1)
+}
+
 /** form box */
 
 .contact-form {
   display: grid;
   justify-content: center;
   text-align: center;
-  margin-top: 25px
+  margin-top: 25px;
 }
 
 .contact-form h3 {
@@ -237,7 +259,13 @@ flex-direction: column;
     margin-bottom: 20px;
 }
 
-#full_name, #email, #score {
+.contact-form label {
+  padding: 3px;
+  font-family: Indie Flower, sans-serif;
+  font-size:20px;
+}
+
+#full_name, #email, #scoreform {
   border-style: solid;
     justify-content: center;
     width: 200px;
