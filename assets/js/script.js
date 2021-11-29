@@ -1,13 +1,13 @@
 const question = document.getElementById('question');
-const choices = Array.from(document.getElementsByClassName('choice-answer'))
+const choices = Array.from(document.getElementsByClassName('choice-answer'));
 const scoreDisplay = document.getElementById ('score');
 const questionDisplay = document.getElementById ('qcounter');
 
 //score feedback 
 window.onload = function scoreFeedback() {
 const finalScores = document.getElementById('player-score');
-const myScore = localStorage.getItem('finalScore')
-const feedback = document.getElementById('feedback')
+const myScore = localStorage.getItem('finalScore');
+const feedback = document.getElementById('feedback');
 finalScores.innerText = myScore
 
 //  if statement to change colour of users final score 
@@ -162,7 +162,6 @@ function runGame() {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
-    console.log(availableQuestions);
     newQuestion()
 }
 
@@ -208,7 +207,6 @@ choices.forEach(choice => {
         acceptingAnswers = false
          const selectedChoice = Event.target;
          const selectedAnswer = selectedChoice.dataset['number'];
-        console.log(selectedAnswer == currentQuestion.answer)
 
         
         // change colour for right or wrong answer 

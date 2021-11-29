@@ -201,9 +201,24 @@ flex-direction: column;
 
 /** game over styling */
 
+
+#gameover-box h2 {
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+
 #feedback {
   text-align: center;
   font-size: 20px;
+  margin-bottom: 5px;
+  margin-left: auto;
+    margin-right: AUTO;
+  
+}
+
+#scoreheading  {
+  margin-bottom: 0px;
 }
 
 /** form box */
@@ -215,7 +230,14 @@ flex-direction: column;
   margin-top: 25px
 }
 
-#full_name, #email {
+.contact-form h3 {
+  width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#full_name, #email, #score {
   border-style: solid;
     justify-content: center;
     width: 200px;
@@ -233,6 +255,22 @@ flex-direction: column;
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
+}
+
+.join-button {
+  margin: 10px;
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    height: 30px;
+    border-radius: 10px;
+    background-color: pink
+}
+
+.join-button:hover {
+  cursor: pointer;
+
 }
 
 /** footer styling */ 
@@ -333,4 +371,8 @@ flex-direction: column;
 }
 }
 
-
+@media (max-width: 550px) {
+  #feedback {
+    max-width: 40vh;
+  }
+}
