@@ -8,29 +8,29 @@ window.onload = function scoreFeedback() {
 const finalScores = document.getElementById('player-score');
 const myScore = localStorage.getItem('finalScore');
 const feedback = document.getElementById('feedback');
-finalScores.innerText = myScore
+finalScores.innerText = myScore;
 
 //  if statement to change colour of users final score 
 if (myScore <= 0 ) { 
-    finalScores.style.color = 'red'
+    finalScores.style.color = 'red';
 }
 else {
-    finalScores.style.color = 'green'
+    finalScores.style.color = 'green';
 }
 
 // if statement to display feedback message on score
 if (myScore >= 10 ) {
-    feedback.innerHTML = "Well done! Looks like you've been revising!"
+    feedback.innerHTML = "Well done! Looks like you've been revising!";
 }
 else if (myScore >= 1 ) {
-    feedback.innerHTML = "Not bad! Keep revising"
+    feedback.innerHTML = "Not bad! Keep revising";
 }
 
 else if (myScore <= 0) {
-    feedback.innerHTML = "I think you need to do a little bit more revising!"
+    feedback.innerHTML = "I think you need to do a little bit more revising!";
 }
 
-}
+};
 
 
 
@@ -52,8 +52,8 @@ const MAX_QUESTIONS = 5;
 
 // sounds 
 
-let correctSound = new Audio ('assets/audio/correct_sound_edited.mp3')
-let incorrectSound = new Audio ('assets/audio/incorrect_sound.mp3')
+let correctSound = new Audio ('assets/audio/correct_sound_edited.mp3');
+let incorrectSound = new Audio ('assets/audio/incorrect_sound.mp3');
 
 
 //** array of questions */
@@ -153,7 +153,7 @@ answer: 2
 
 }
 
-]
+];
 
 
 // start game function /
@@ -162,20 +162,20 @@ function runGame() {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
-    newQuestion()
+    newQuestion();
 }
 
 // question selection and ramomizer /
 function newQuestion () {
 
-    questionCounter++
+    questionCounter++;
 
 
     //display question number 
     questionDisplay.innerText = questionCounter + '/' + MAX_QUESTIONS;
     //randomise questions 
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
-    currentQuestion = availableQuestions[questionIndex]
+    currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
   
 
@@ -184,7 +184,7 @@ choices.forEach(choice =>{
     choice.innerText = currentQuestion ['choice' + number];
 });
 availableQuestions.splice(questionIndex,1);
-acceptingAnswers = true
+acceptingAnswers = true;
 
 //question counters
 if (availableQuestions === 0 || questionCounter >= MAX_QUESTIONS) {
@@ -204,13 +204,13 @@ choices.forEach(choice => {
         
         if (!acceptingAnswers) return;
 
-        acceptingAnswers = false
+        acceptingAnswers = false;
          const selectedChoice = Event.target;
          const selectedAnswer = selectedChoice.dataset['number'];
 
         
         // change colour for right or wrong answer 
-        let rightWrong = 'incorrect-answer'
+        let rightWrong = 'incorrect-answer';
 
        
 
@@ -226,30 +226,30 @@ choices.forEach(choice => {
 
         // sound effect for correct and incorrect answer
         if (selectedAnswer == currentQuestion.answer) {
-            correctSound.play()
+            correctSound.play();
          } else {
-             incorrectSound.play()
+             incorrectSound.play();
          }
 
 
         selectedChoice.parentElement.classList.add(rightWrong);
         setTimeout(() => {
-        selectedChoice.parentElement.classList.remove(rightWrong)
+        selectedChoice.parentElement.classList.remove(rightWrong);
 
 
-        newQuestion();}, 1500)
+        newQuestion();}, 1500);
         
         
         
 
-    })
+    });
 
     
- })
+ });
 
  // increase score for correct answer
  function scoreIncrease(num) {
-     score += num
+     score += num;
      scoreDisplay.innerText = score;
 
  }
@@ -257,7 +257,7 @@ choices.forEach(choice => {
  //decreases score for incorrect answer
  function scoreDecrease(num) 
  {
-     score -= num
+     score -= num;
      scoreDisplay.innerText = score;
  }
 

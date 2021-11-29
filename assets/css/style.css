@@ -265,7 +265,7 @@ flex-direction: column;
   font-size:20px;
 }
 
-#full_name, #email, #scoreform {
+#user_name, #email, #scoreform {
   border-style: solid;
     justify-content: center;
     width: 200px;
@@ -300,6 +300,8 @@ flex-direction: column;
 
 .join-button:hover {
   cursor: pointer;
+  transition: transform 130ms;
+  transform:scale(1.1);
 
 }
 
