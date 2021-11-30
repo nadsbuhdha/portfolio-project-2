@@ -104,7 +104,7 @@ flex-direction: column;
 
 .choice-container {
   display: flex;
-  background-color: pink;
+  background-color: rgba(255,208,224,255);
   margin-bottom: 10px;
   border: solid;
   font-size: 30px;
@@ -293,7 +293,7 @@ flex-direction: column;
     border-style: solid;
     height: 40px;
     border-radius: 10px;
-    background-color: pink;
+    background-color:rgba(255,208,224,255);
     font-family: Indie Flower, sans-serif ;
     font-size: 18px;
 }

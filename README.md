@@ -10,11 +10,11 @@ The primary target audience for the site is ks2 children who want a fun way to r
 ## User Expectations
 
 As the primary target audience for the site is children, for this website the following user expectations were considered when creating the site:
-•	Easy to access, simple and clear
-•	Responsive as students will be accessing on multiple devices
-•	Questions in quiz should be relevant to the national curriculum 
-•	Dynamic real-time feedback should be presented to users so they are aware of correct and incorrect answers
+* Easy to access, simple and clear
+* Responsive as students will be accessing on multiple devices
+* Questions in quiz should be relevant to the national curriculum 
+* Dynamic real-time feedback should be presented to users so they are aware of correct and incorrect answers
 
 ## Colour schemes 
 
-
+A warm, bright UI was chosen for the colour scheme of this website. As the primary target audience is children between 7 - 12, bright attractive colours were utilised to gain the attention of the user as well as present a warm and friendly application. A white ‘gamebox’ was used in order for the users to easily see the questions and there is adequate contrast between colours. Imagecolourpicker.com was used in order to select the colours from the background image to keep colour consistency throughout the site. rgba(255,208,224,255), a shade of pink, was used for buttons and answer boxes. To stand out, the footer is in black and the icons are in the colour rgba(255,208,224,255). When the icons are hovered over, the colour scheme shifts to rgba(111,216,187,255). This colour was also taken from the background image using Imagecolourpicker.com 
