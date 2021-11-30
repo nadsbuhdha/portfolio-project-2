@@ -156,7 +156,8 @@ availableQuestions.splice(questionIndex,1);
 acceptingAnswers = true;
 
 //question counters
-if (availableQuestions === 0 || questionCounter >= MAX_QUESTIONS) {
+if //(availableQuestions === 0 ||
+ (questionCounter > MAX_QUESTIONS) {
 
 //store users score locally    
 localStorage.setItem('finalScore', score);
@@ -202,6 +203,12 @@ choices.forEach(choice => {
 
 
         selectedChoice.parentElement.classList.add(rightWrong);
+        
+        //quick escape for end game 
+        if (questionCounter > MAX_QUESTIONS -1) { 
+            localStorage.setItem('finalScore', score);
+            return window.location.replace ('gameover.html'), 1;
+        }
         setTimeout(() => {
         selectedChoice.parentElement.classList.remove(rightWrong);
 
