@@ -27,3 +27,39 @@ A warm, bright UI was chosen for the colour scheme of this website. As the prima
 add images
 
 ## Features 
+
+## Home page
+
+### Logo navigation
+
+The home page features a logo which directly tells the user what is the name and purpose of the website. The logo can also be clicked on in order to navigate back the index page. This allows users to transfer back to the index page without using the back buttons. 
+
+### Homepage buttons
+
+The home page features two buttons which direct the user either to start the game or the rules page which has additional information for the user should they need it. 
+
+Each button is interactive and features a hover effect whereby the buttons increase in size once hovered hover. 
+
+### Background
+
+The background image, which is featured on all pages, is a multicoloured image which features grid style paper and styled ripped coloured paper. This is to emulate the visuals of being in a classroom; and the equipment which is synonymous with being in a classroom. 
+
+### Footer
+
+The bottom of each page features a footer which includes social media links. The social media links are coloured rgba(255,208,224,255) which, when hovered over, change to the colour rgba(111,216,187,255). This keeps the colour theme of the website. The social media links open on a new page and do not direct away from the current page. 
+
+## Game page
+
+Score and Question counter
+
+Above the game box, the site features a score counter and a question counter. This displays the user’s current question and their current score. This is achieved by the use of inner.text property. 
+
+### Gamebox questions
+
+Within the game box, questions, which have been stored in an array, are randomly selected for the user to answer. A multiple choice of 4 answers is then presented to the user and they can pick one of the four answers. When hovered over, the multiple-choice answers increase in size to display to the user which choice they are about to choose. 
+
+When a correct answer is chosen. The answer is highlighted green and a correct answer sound effect is played.
+
+When the incorrect answer is chosen. The answer is highlighted red and an incorrect answer sound effect is played. 
+
+
