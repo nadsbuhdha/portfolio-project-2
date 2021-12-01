@@ -1,5 +1,5 @@
 ## Overview
-‘Back to school’ is a fun interactive quiz targeted specifically at primary KS2 students. The website aims to offer a simple but fun way for students from year 3 - 6 to test their subject knowledge against questions that are linked to the KS2 primary national curriculum. Students spend on average **** a day on phones and tablets. Therefore, providing a simple easy access quiz that tests and boosts student’s knowledge can supplement their screen time with an educational, yet fun benefit. 
+‘Back to school’ is a fun interactive quiz targeted specifically at primary KS2 students. The website aims to offer a simple but fun way for students from year 3 - 6 to test their subject knowledge against questions that are linked to the KS2 primary national curriculum. In the U.K, children between the age of 5 - 16 spend an average of 6.3 hours on screens per day.  Therefore, providing a simple easy access quiz that tests and boosts student’s knowledge can supplement their screen time with an educational, yet fun benefit. 
 
 ## Aims
 The aim of this website is to provide an easy to access, fun, interactive quiz for primary school ks2 students. Questions are based on the KS2 curriculum therefore are accessible for students. User’s scores are displayed so users can try to compete against their own score, answering more correct questions and therefore developing their subject knowledge.
@@ -34,9 +34,13 @@ add images
 
 The home page features a logo which directly tells the user what is the name and purpose of the website. The logo can also be clicked on in order to navigate back the index page. This allows users to transfer back to the index page without using the back buttons. 
 
+![alt text](assets/images/logo-nav.webp 'nav logo') 
+
 ### Homepage buttons
 
 The home page features two buttons which direct the user either to start the game or the rules page which has additional information for the user should they need it. 
+
+![alt text](assets/images/homepage-buttons.webp 'home page buttons')
 
 Each button is interactive and features a hover effect whereby the buttons increase in size once hovered hover. 
 
@@ -44,13 +48,19 @@ Each button is interactive and features a hover effect whereby the buttons incre
 
 The background image, which is featured on all pages, is a multicoloured image which features grid style paper and styled ripped coloured paper. This is to emulate the visuals of being in a classroom; and the equipment which is synonymous with being in a classroom. 
 
+![alt text](assets/images/background_image.webp 'background')
+
 ### Footer
 
 The bottom of each page features a footer which includes social media links. The social media links are coloured rgba(255,208,224,255) which, when hovered over, change to the colour rgba(111,216,187,255). This keeps the colour theme of the website. The social media links open on a new page and do not direct away from the current page. 
 
+![alt text](assets/images/footer.webp 'footer')
+
 ## Game page
 
-Score and Question counter
+### Score and Question counter
+
+![alt text](assets/images/socre-questioncounter.webp 'score counter')
 
 Above the game box, the site features a score counter and a question counter. This displays the user’s current question and their current score. This is achieved by the use of inner.text property. 
 
@@ -58,8 +68,42 @@ Above the game box, the site features a score counter and a question counter. Th
 
 Within the game box, questions, which have been stored in an array, are randomly selected for the user to answer. A multiple choice of 4 answers is then presented to the user and they can pick one of the four answers. When hovered over, the multiple-choice answers increase in size to display to the user which choice they are about to choose. 
 
+![alt text](assets/images/quiz-box.webp 'gamebox')
+
 When a correct answer is chosen. The answer is highlighted green and a correct answer sound effect is played.
 
+![alt text](assets/images/correct-answer.webp 'correct answer')
+
 When the incorrect answer is chosen. The answer is highlighted red and an incorrect answer sound effect is played. 
+
+![alt text](assets/images/incorrect-answer.webp 'incorrect answer')
+
+### Gameover Page
+
+Once the user completes the set amount of questions, the page is redirected to a gameover page which displays the users results. 
+
+The results shown are based on the users score.
+
+If they have a score greater than 0 the results are displayed in green
+
+If the they have a negative score the results are displayed in red 
+
+There are three messages that are dynamically updated depending on the users score.
+
+If the user score ____ this message is shown:
+
+
+If the user scores ____ this message is shown:
+
+
+If the user scores _____ this message is shown: 
+
+
+Two buttons are shown to allow the user to navigate back to the home screen or play again. 
+
+
+A contact form is featured which allows users to enter a user name, email,and message so they can send feedback about their experience of the game. The contact form includes a mandatory field where users must input their information in order to contact.
+
+The score input is automatically updated with the users final score and has a ‘readonly’ property so the user cannot change their score. 
 
 

@@ -199,6 +199,9 @@ flex-direction: column;
     width: 50px;
 }
 
+#rulesfooter {
+  top:105%
+}
 
 /** game over styling */
 
@@ -215,6 +218,7 @@ flex-direction: column;
   margin-bottom: 15px;
   margin-left: auto;
     margin-right: AUTO;
+    font-weight: 600;
   
 }
 
@@ -378,7 +382,7 @@ background:rgb(240, 239, 239);
   #rulesfooter { top: 130%; }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 730px) {
   #gamefooter {
     top: 150%;
 
