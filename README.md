@@ -104,6 +104,77 @@ Two buttons are shown to allow the user to navigate back to the home screen or p
 
 A contact form is featured which allows users to enter a user name, email,and message so they can send feedback about their experience of the game. The contact form includes a mandatory field where users must input their information in order to contact.
 
+![alt text](assets/images/form.webp 'contact form')
+
 The score input is automatically updated with the users final score and has a ‘readonly’ property so the user cannot change their score. 
+
+
+## Technologies used 
+
+HTML
+CSS
+Javascript
+
+
+## Testing
+
+### Homepage
+Feature | Test | Outcome
+--- | --- | ---
+Logo | Logo to link back to homepage | Pass
+Play game button | Play button to link to game | Pass
+How to play buttom | How to play button to link to about and rules page | Pass
+Buttons | Buttons to increase insize when hovered hover | Pass
+
+
+### Footer 
+
+Feature | Test | Outcome
+--- | --- | ---
+Footer | Footer to stay stuck at bottom of page | Pass
+Social media links | Icons to highlight when hovered over | Pass
+Social media links | Links to open in a new page when clicked on | Pass
+
+
+### Game Page
+Feature | Test | Outcome
+--- | --- | ---
+Question Hud | Question hud to indicate what question the player is on and update when next question appears | pass 
+Scorehud | Score hud to update in realtime depending on correct or incorrect answer | Pass
+Question | New question to generate each time a question is answered | Pass
+Multiple Choice Answers | Answers to increase insize when hovered hover | Pass
+Multiple Choice Answers | Answers to highlight green if correct and Red if incorrect | Pass
+Multiple Choice Answers | Sound effect to play whether the question is correct or incorrect | Pass
+Final question | Final question to link to a 'gameover' page | Pass
+
+
+### Game over page
+Feature | Test | Outcome
+--- | --- | ---
+Score update | Users locally stored score to be displayed | Pass
+Score update | Score to display if a positive score and red if a negative score | Pass
+Game Over Message | Different game over message to be displayed to user depending on the score | Pass
+Play again button | Play again and home buttons to increase insize when hovered hover | Pass
+
+### Form
+Feature | Test | Outcome
+--- | --- | ---
+Form | Form to require users to sumbit all relevant information | Pass
+Score input | Score input disabled for user and automatically updated with user score | Pass
+Form | Form to accurately submit all data | Pass
+
+### Responsiveness 
+
+Device | Test | Outcome
+--- | --- | ---
+Firefox, Google Chrome, Safari | responsive with no functionality issues | Pass
+Chrone developer tools | responsive with no functionality issues | Pass
+Firefox developer tools | responsive with no functionality issues | Pass
+
+
+
+
+### Responsiveness
+
 
 
