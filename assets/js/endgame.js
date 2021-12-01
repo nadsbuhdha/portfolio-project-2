@@ -26,5 +26,12 @@ window.onload = function scoreFeedback() {
     else if (myScore <= 0) {
         feedback.innerHTML = "I think you need to do a little bit more revising!";
     }
-    
+
+    //auto update score form
+    let userScore = document.getElementById('scoreform')
+    scoreform.value = myScore
+    //document.getElementById("scoreform").disabled = true
+
     };
+
+    

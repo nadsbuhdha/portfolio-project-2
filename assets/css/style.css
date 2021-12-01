@@ -277,6 +277,11 @@ flex-direction: column;
     margin-top: 5px;
 }
 
+#scoreform {
+pointer-events:none;
+background:rgb(240, 239, 239);
+}
+
 #messageinput {
   border-style: solid;
     justify-content: center;

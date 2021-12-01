@@ -44,7 +44,7 @@ let questions = [
     answer:3
 },
 {
-    question:'Which of these animals would you NOT find in the Arctic',
+    question:'Which of these animals would you NOT find in the Arctic?',
     choice1: 'Penguin',
     choice2: 'Lemming',
     choice3: 'Snowy Owl',
@@ -105,7 +105,7 @@ answer: 2
 },
 
 {
-    question: 'Who was the Roman God of War ?',
+    question: 'Who was the Roman God of War?',
     choice1: 'Jupiter',
     choice2: 'Juno',
     choice3: 'Apollo',
@@ -113,7 +113,7 @@ answer: 2
     answer: 4
 },
 {
-    question: 'What is the name of a triangle with all equal sides and angles',
+    question: 'What is the name of a triangle with all equal sides and angles?',
     choice1: 'Scalene',
     choice2: 'Isosceles',
     choice3: 'Right Angled',
@@ -206,10 +206,12 @@ choices.forEach(choice => {
         
         //quick escape for end game 
         if (questionCounter > MAX_QUESTIONS -1) { 
-            localStorage.setItem('finalScore', score);
-            return window.location.replace ('gameover.html'), 1;
+            localStorage.setItem('finalScore', score); 
+            return window.location.replace ('gameover.html'),1;
         }
-        setTimeout(() => {
+
+        
+        setTimeout (function() {
         selectedChoice.parentElement.classList.remove(rightWrong);
 
 
