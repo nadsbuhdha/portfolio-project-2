@@ -163,7 +163,7 @@ Form | Form to require users to sumbit all relevant information | Pass
 Score input | Score input disabled for user and automatically updated with user score | Pass
 Form | Form to accurately submit all data | Pass
 
-### Responsiveness 
+## Responsiveness 
 
 Device | Test | Outcome
 --- | --- | ---
@@ -174,7 +174,6 @@ Firefox developer tools | responsive with no functionality issues | Pass
 
 
 
-### Responsiveness
 
 
 
