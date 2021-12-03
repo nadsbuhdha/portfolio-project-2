@@ -16,7 +16,7 @@ let availableQuestions = [];
 
 const CORRECT_SCORE = 5;
 const INCORRECT_SCORE = 2;
-const MAX_QUESTIONS = 5;
+const MAX_QUESTIONS = 8;
 
 
 // sounds 
@@ -120,7 +120,93 @@ answer: 2
     choice4: 'Equilateral',
     answer: 4
 
+},
+
+{ question: 'What is 5637 rounded to the nearest 1000',
+choice1: '3000',
+choice2: '4000',
+choice3: '5000',
+choice4: '6000',
+answer: 4
+
+},
+
+{ question: 'What is 26 x 39 =',
+choice1: '1931',
+choice2: '1014',
+choice3: '1303',
+choice4: '1031',
+answer: 2
+
 }
+,
+
+{ question: 'How many centimeters are there in a meter ?',
+choice1: '100',
+choice2: '1000',
+choice3: '10',
+choice4: '10000',
+answer: 1
+},
+
+{ question: 'Who was the first astronaut to walk on the moon?',
+choice1: 'Buzz Aldrin',
+choice2: 'yuri gagarin',
+choice3: 'Neil Armstrong',
+choice4: 'Jerry Ross',
+answer: 3
+},
+
+{ question: 'How many continents are there',
+choice1: '4',
+choice2: '5',
+choice3: '6',
+choice4: '7',
+answer: 4
+},
+
+{ question: 'What year did the Battle of Hastings take place ?',
+choice1: '1354',
+choice2: '1066',
+choice3: '1032',
+choice4: '1458',
+answer: 2
+},
+
+{ question: 'What is the antonym of difficult',
+choice1: 'Hard',
+choice2: 'Challenging',
+choice3: 'Easy',
+choice4: 'Impossible',
+answer: 2
+},
+
+{ question: "The boy ate his lunch slowly. What word class is 'slowly' ? ",
+choice1: 'Adverb',
+choice2: 'Adjective',
+choice3: 'Verb',
+choice4: 'Noun',
+answer: 1
+},
+
+{ question: "Which of the the three main types of teeth are found nearer the back of your mouth? ",
+choice1: 'Incisors',
+choice2: 'Canines',
+choice3: 'Molars',
+choice4: 'Premolars',
+answer: 3
+},
+
+{ question: "What food group do eggs belong to?",
+choice1: 'Dairy',
+choice2: 'Protein',
+choice3: 'Fat',
+choice4: 'carbohydrates',
+answer: 2
+},
+
+
+
 
 ];
 
