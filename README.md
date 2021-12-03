@@ -30,7 +30,43 @@ A warm, bright UI was chosen for the colour scheme of this website. As the prima
 ‘Indie flower’ was used as the primary font for this website. As this website is aimed for primary school students, I wanted a font that emulated handwriting as students at this age handwrite the majority of their work. Having a handwriting styled font would add a layer of familiarity to the website. Indie flower was also chosen as comparatively to other handwritten styled fonts, as it appeared more legible and readable. I chose to use ‘Indie flower’ for both the h tags and the p tags as I wanted the consistency of the handwritten theme throughout the website and having two separate styled handwritten themes appeared incongruent. ‘san-serif’ was chosen as a backup font for the site should indie flower fail to load. 
 
 ## Wireframes 
-add images
+
+### Mobile Home Page
+
+![alt text](assets/images/phone_home_page.webp 'mob home page')
+
+### Mobile 'Home To Play' Page
+
+![alt text](assets/images/pone_about_page.webp 'mob how to play')
+
+### Mobile Game Page
+
+![alt text](assets/images/phone_gamepage.webp 'mob Game Page')
+
+### Mobile Game Over Page
+
+![alt text](assets/images/phone_endpage.webp 'mob over page')
+
+
+### Desktop Home Page
+
+![alt text](assets/images/desktop_hp.webp 'desktop homepage')
+
+### Desktop 'How to Play' Page
+
+![alt text](assets/images/desktop_about.webp 'desktop how to play page')
+
+
+### Desktop Game Page
+
+![alt text](assets/images/desktop_quiz_page.webp 'desktop game page')
+
+### Desktop Gameover page
+
+![alt text](assets/images/desktop_gameover_page.webp 'desktop game over page')
+
+![alt text](assets/images/desktop_gameover_page_form.webp 'desktop game over page with form')
+
 
 ## Features 
 
@@ -98,7 +134,7 @@ There are three messages that are dynamically updated depending on the users sco
 
 If the user score is 0 or less, this message is shown:
 
-![alt text](assets/images/negative-score.webp'low score')
+![alt text](assets/images/negative-score.webp 'low score')
 
 
 If the user scores between 1 and 20, this message is shown:
