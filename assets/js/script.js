@@ -178,7 +178,7 @@ choice1: 'Hard',
 choice2: 'Challenging',
 choice3: 'Easy',
 choice4: 'Impossible',
-answer: 2
+answer: 3
 },
 
 { question: "The boy ate his lunch slowly. What word class is 'slowly' ? ",
@@ -242,7 +242,7 @@ availableQuestions.splice(questionIndex,1);
 acceptingAnswers = true;
 
 //question counters
-if //(availableQuestions === 0 ||
+if 
  (questionCounter > MAX_QUESTIONS) {
 
 //store users score locally    

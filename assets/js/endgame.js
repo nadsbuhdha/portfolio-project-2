@@ -16,11 +16,11 @@ window.onload = function scoreFeedback() {
     }
     
     // if statement to display feedback message on score
-    if (myScore >= 10 ) {
+    if (myScore >= 20 ) {
         feedback.innerHTML = "Well done! Looks like you've been revising!";
     }
     else if (myScore >= 1 ) {
-        feedback.innerHTML = "Not bad! Keep revising";
+        feedback.innerHTML = "Not bad! Keep revising!";
     }
     
     else if (myScore <= 0) {
@@ -30,7 +30,7 @@ window.onload = function scoreFeedback() {
     //auto update score form
     let userScore = document.getElementById('scoreform')
     scoreform.value = myScore
-    //document.getElementById("scoreform").disabled = true
+ 
 
     };
 

@@ -1,4 +1,10 @@
+# Back To School 
+
+![alt text](assets/images/amiresponsive.webp 'Home page on screen devices')
+
+
 ## Overview
+
 ‘Back to school’ is a fun interactive quiz targeted specifically at primary KS2 students. The website aims to offer a simple but fun way for students from year 3 - 6 to test their subject knowledge against questions that are linked to the KS2 primary national curriculum. In the U.K, children between the age of 5 - 16 spend an average of 6.3 hours on screens per day.  Therefore, providing a simple easy access quiz that tests and boosts student’s knowledge can supplement their screen time with an educational, yet fun benefit. 
 
 ## Aims
@@ -60,7 +66,7 @@ The bottom of each page features a footer which includes social media links. The
 
 ### Score and Question counter
 
-![alt text](assets/images/socre-questioncounter.webp 'score counter')
+![alt text](assets/images/scorehud.webp 'score counter')
 
 Above the game box, the site features a score counter and a question counter. This displays the user’s current question and their current score. This is achieved by the use of inner.text property. 
 
@@ -90,17 +96,21 @@ If the they have a negative score the results are displayed in red
 
 There are three messages that are dynamically updated depending on the users score.
 
-If the user score ____ this message is shown:
+If the user score is 0 or less, this message is shown:
+
+![alt text](assets/images/negative-score.webp'low score')
 
 
-If the user scores ____ this message is shown:
+If the user scores between 1 and 20, this message is shown:
 
+![alt text](assets/images/midscore.webp 'mid score')
 
-If the user scores _____ this message is shown: 
+If the user scores above 20, this message is shown: 
 
+![alt text](assets/images/highscore.webp 'high score')
 
 Two buttons are shown to allow the user to navigate back to the home screen or play again. 
-
+![alt text](assets/images/playagain.webp 'high score')
 
 A contact form is featured which allows users to enter a user name, email,and message so they can send feedback about their experience of the game. The contact form includes a mandatory field where users must input their information in order to contact.
 
