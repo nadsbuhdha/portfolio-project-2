@@ -1,47 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Nunito:wght@700&family=Permanent+Marker&family=Shalimar&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Nunito:wght@700&family=Permanent+Marker&family=Shalimar&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
-  }
+  margin: 0;
+  padding: 0;
+  border: none;
+}
 /* body styling */
 body {
-background-image: url(../images/background_image.webp);
-background-repeat: no-repeat;
-background-position: center center;
-background-attachment: fixed;
-background-size: cover;
-min-height: 100vh;
-position: relative;
-  }
+  background-image: url(../images/background_image.webp);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
 
 main {
   height: 500px;
-  
 }
 
-
-h1, h2, h3 {font-family: Indie Flower, sans-serif}
+h1,
+h2,
+h3 {
+  font-family: Indie Flower, sans-serif;
+}
 
 /* nav styling */
 nav {
-    background-color: white;
-    border-radius: 12px;
-    margin: auto;
-    max-width: 30%;
-    transform: translate(0px, 30px);
-    padding: 5px;
-    margin-bottom: 20px;
-
+  background-color: white;
+  border-radius: 12px;
+  margin: auto;
+  max-width: 30%;
+  transform: translate(0px, 30px);
+  padding: 5px;
+  margin-bottom: 20px;
 }
 
 #nav-centre {
-border-style: solid;
+  border-style: solid;
 }
 
 nav h1 {
-    text-align: center;
-    font-size: 30px;
+  text-align: center;
+  font-size: 30px;
 }
 
 nav p {
@@ -50,7 +51,7 @@ nav p {
 
 #b2sheader {
   text-decoration: none;
-  color:black
+  color: black;
 }
 
 /* container styling */
@@ -63,35 +64,35 @@ nav p {
   transform: translate(0px, 50px);
   padding-bottom: 200px;
   justify-content: center;
-  border: black  ;
+  border: black;
   border-style: solid;
   max-width: 80rem;
   margin: 0 auto;
-  padding: 1rem
+  padding: 1rem;
 }
 
 .btn {
-  font-size:30px;
+  font-size: 30px;
   text-align: center;
   margin-bottom: 1rem;
   text-decoration: none;
   color: black;
-  background: rgba(255,208,224,255);
-  border-style:solid;
+  background: rgba(255, 208, 224, 255);
+  border-style: solid;
   border-color: black;
   padding: 7px;
   font-family: Indie Flower, sans-serif;
-  border-radius: 10px
-} 
+  border-radius: 10px;
+}
 
 .btn:hover {
   transition: transform 130ms;
-  transform:scale(1.1)
+  transform: scale(1.1);
 }
 
 .flex-column {
-display:flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #game-box h2 {
@@ -104,7 +105,7 @@ flex-direction: column;
 
 .choice-container {
   display: flex;
-  background-color: rgba(255,208,224,255);
+  background-color: rgba(255, 208, 224, 255);
   margin-bottom: 10px;
   border: solid;
   font-size: 30px;
@@ -114,26 +115,23 @@ flex-direction: column;
 }
 
 .choice-letter {
-  background-color: rgba(111,216,187,255);
+  background-color: rgba(111, 216, 187, 255);
   padding: 0px;
-  background-color: rgba(111,216,187,255);
+  background-color: rgba(111, 216, 187, 255);
   transform: translate(-10px, 0px);
   border-radius: inherit;
   margin-left: 4px;
-
 }
 
 .choice-container:hover {
   transition: transform 130ms;
-  transform:scale(1.1);
-  cursor:pointer;
-
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .choice-answer {
-  width:100%
+  width: 100%;
 }
-
 
 /*correct and incorrect colour buttons */
 
@@ -145,7 +143,6 @@ flex-direction: column;
   background-color: rgb(214, 16, 56);
 }
 
-
 /* score and question counter styling */
 .quizcounters {
   display: flex;
@@ -153,31 +150,30 @@ flex-direction: column;
   justify-content: space-around;
 }
 
-.quizcounters h2, p {
+.quizcounters h2,
+p {
   font-family: Indie Flower, sans-serif;
 }
 
 #counterbox {
   background-color: white;
-    border-radius: 20px;
-    padding: 10px;
-    padding-top: 10px;
-    transform: translate(0px, 30px);
-    width: 70px;
-    border-style: solid;
+  border-radius: 20px;
+  padding: 10px;
+  padding-top: 10px;
+  transform: translate(0px, 30px);
+  width: 70px;
+  border-style: solid;
 }
 
 #scorebox {
   background-color: white;
-    border-radius: 20px;
-    padding: 10px;
-    padding-top: 10px;
-    transform: translate(0px, 30px);
-    width: 70px;
-    border-style: solid;
+  border-radius: 20px;
+  padding: 10px;
+  padding-top: 10px;
+  transform: translate(0px, 30px);
+  width: 70px;
+  border-style: solid;
 }
-
-
 
 /** rules page styleing */
 
@@ -194,22 +190,20 @@ flex-direction: column;
 
 #rulesplaybtn {
   display: flex;
-    justify-content: center;
-    margin: auto;
-    width: 50px;
+  justify-content: center;
+  margin: auto;
+  width: 50px;
 }
 
 #rulesfooter {
-  top:105%
+  top: 105%;
 }
 
 /** game over styling */
 
-
 #gameover-box h2 {
   text-align: center;
   margin-bottom: 10px;
-
 }
 
 #feedback {
@@ -217,22 +211,22 @@ flex-direction: column;
   font-size: 20px;
   margin-bottom: 15px;
   margin-left: auto;
-    margin-right: AUTO;
-    font-weight: 600;
-  
+  margin-right: AUTO;
+  font-weight: 600;
 }
 
-#scoreheading  {
+#scoreheading {
   margin-bottom: 0px;
 }
 
-.endbtn {font-size:18px;
+.endbtn {
+  font-size: 18px;
   text-align: center;
   margin-bottom: 1rem;
   text-decoration: none;
   color: black;
-  background: rgba(255,208,224,255);
-  border-style:solid;
+  background: rgba(255, 208, 224, 255);
+  border-style: solid;
   border-color: black;
   padding: 7px;
   font-family: Indie Flower, sans-serif;
@@ -240,12 +234,11 @@ flex-direction: column;
   max-width: 90px;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .endbtn:hover {
   transition: transform 130ms;
-  transform:scale(1.1)
+  transform: scale(1.1);
 }
 
 /** form box */
@@ -259,114 +252,109 @@ flex-direction: column;
 
 .contact-form h3 {
   width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
 }
 
 .contact-form label {
   padding: 3px;
   font-family: Indie Flower, sans-serif;
-  font-size:20px;
+  font-size: 20px;
 }
 
-#user_name, #email, #scoreform {
+#user_name,
+#email,
+#scoreform {
   border-style: solid;
-    justify-content: center;
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    border-width: thin;
-    border-radius: 5px;
-    margin-top: 5px;
+  justify-content: center;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: thin;
+  border-radius: 5px;
+  margin-top: 5px;
 }
 
 #scoreform {
-pointer-events:none;
-background:rgb(240, 239, 239);
+  pointer-events: none;
+  background: rgb(240, 239, 239);
 }
 
 #messageinput {
   border-style: solid;
-    justify-content: center;
-    width: 350px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 5px;
+  justify-content: center;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
 }
 
 .join-button {
   margin: 10px;
-    width: 120px;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: solid;
-    height: 40px;
-    border-radius: 10px;
-    background-color:rgba(255,208,224,255);
-    font-family: Indie Flower, sans-serif ;
-    font-size: 18px;
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgba(255, 208, 224, 255);
+  font-family: Indie Flower, sans-serif;
+  font-size: 18px;
 }
 
 .join-button:hover {
   cursor: pointer;
   transition: transform 130ms;
-  transform:scale(1.1);
-
+  transform: scale(1.1);
 }
 
-/** footer styling */ 
+/** footer styling */
 
-.stickyfooter
-{
+.stickyfooter {
   position: absolute;
   top: 100%;
   width: 100%;
- 
 }
 
-  footer {
-    background-color:black;
-    color: black;
-    clear: both;
-    
-  }
-  
-  footer ul {
-    text-align: center;
-    text-decoration: none;
-  }
-  
-  footer ul li {
-    display: inline;
-  }
-  
-  footer li i {
-    font-size: 150%;
-    color: rgba(255,208,224,255);
-  }
-  
-  .sm-icons i {
-    padding: 1%;
-    margin: 1%;
-  }
-  
-  .sm-icons {
-    padding: 25px;
-  }
-  
-  .sm-icons a {
-    text-decoration: none;
-  }
+footer {
+  background-color: black;
+  color: black;
+  clear: both;
+}
 
-  
-  .sm-icons :hover {
-    transition: color 0.4s;
-    color:  rgba(111,216,187,255);
-    
-  }
-  
-  
+footer ul {
+  text-align: center;
+  text-decoration: none;
+}
+
+footer ul li {
+  display: inline;
+}
+
+footer li i {
+  font-size: 150%;
+  color: rgba(255, 208, 224, 255);
+}
+
+.sm-icons i {
+  padding: 1%;
+  margin: 1%;
+}
+
+.sm-icons {
+  padding: 25px;
+}
+
+.sm-icons a {
+  text-decoration: none;
+}
+
+.sm-icons :hover {
+  transition: color 0.4s;
+  color: rgba(111, 216, 187, 255);
+}
+
 #gamefooter {
   top: 145%;
 }
@@ -377,45 +365,45 @@ background:rgb(240, 239, 239);
 
 /** media queries */
 
-
 @media (max-width: 1000px) {
-  #rulesfooter { top: 130%; }
+  #rulesfooter {
+    top: 130%;
+  }
 }
 
 @media (max-width: 730px) {
   #gamefooter {
     top: 150%;
-
   }
 
   #nav-centre {
     max-width: 50%;
   }
 
- .container {
-  width: 70vw;
- }
+  .container {
+    width: 70vw;
+  }
 
-#game-box h2{ font-size: 23px;
+  #game-box h2 {
+    font-size: 23px;
+  }
 
-}
+  .choice-container {
+    font-size: 23px;
+  }
 
-.choice-container {
-  font-size :23px;
-}
+  .choice-letter {
+    height: 38px;
+  }
 
-.choice-letter {
-  height: 38px;
-}
-
-#rulesfooter {
-  top: 160%
-}
+  #rulesfooter {
+    top: 160%;
+  }
 }
 
 @media (max-width: 550px) {
   #feedback {
-    max-width: 40vh;  
+    max-width: 40vh;
   }
 
   .contact-form h3 {

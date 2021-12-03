@@ -1,92 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" href="#">
     <title>game</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-      <!--title with nav back to home page--> 
-        <nav id ="nav-centre" >
-           <a href="index.html" id="b2sheader"><h1> Back To School !   <i class="fas fa-graduation-cap"></i></a> 
-                <p>Test your KS2 subject knowledge.
-                </p>
-            </h1>
-        </nav>
+      <!--title with nav back to home page-->
+      <nav id="nav-centre">
+        <a href="index.html" id="b2sheader">
+          <h1> Back To School ! <i class="fas fa-graduation-cap"></i></h1>
+        </a>
+        <p>Test your KS2 subject knowledge. </p>
+        
+      </nav>
     </header>
-  
-<main>
-  <!--question counter --> 
-<div class= "scorehud">
-  <div class ="quizcounters"  >
-    <div class = "quiz-counter-hud" id='counterbox'>
-      <p class ='questioncounter'>Question </p>
-      <h2 class = 'quizcounter-text' id='qcounter'> </h2>
-    </div>
-     <!--Score counter --> 
-    <div class ="quizcounters" >
-      <div class = "quiz-counter-hud" id='scorebox'>
-        <p class ='questioncounter'> Score</p>
-        <h2 class = 'quizcounter-text' id="score">0</h2>
+    <main>
+      <!--question counter -->
+      <div class="scorehud">
+        <div class="quizcounters">
+          <div class="quiz-counter-hud" id='counterbox'>
+            <p class='questioncounter'>Question </p>
+            <h2 class='quizcounter-text' id='qcounter'>#</h2>
+          </div>
+          <!--Score counter -->
+          <div class="quizcounters">
+            <div class="quiz-counter-hud" id='scorebox'>
+              <p class='questioncounter'> Score</p>
+              <h2 class='quizcounter-text' id="score">0</h2>
+            </div>
+          </div>
+        </div>
+        <!--Game box -->
+        <div class='container'>
+          <div id='game-box' class="flex-column flex-center">
+            <h2 id='question'>Question</h2>
+            <div class="choice-container">
+              <p class="choice-letter">A.</p>
+              <p class="choice-answer" data-number="1">Choice 1</p>
+            </div>
+            <div class="choice-container">
+              <p class="choice-letter">B.</p>
+              <p class="choice-answer" data-number="2">Choice 2</p>
+            </div>
+            <div class="choice-container">
+              <p class="choice-letter">C.</p>
+              <p class="choice-answer" data-number="3">Choice 3</p>
+            </div>
+            <div class="choice-container">
+              <p class="choice-letter">D.</p>
+              <p class="choice-answer" data-number="4">Choice 4</p>
+            </div>
+          </div>
+        </div>
       </div>
-  </div>
-</div>    
-<!--Game box --> 
-<div class ='container'>
-    <div id='game-box' class = "flex-column flex-center" >
-
-       <h2 id='question'>Question</h2>
-      <div class="choice-container">
-        <p class= "choice-letter">A.</p>
-        <p class="choice-answer" data-number="1">Choice 1</p>
-      </div>
-      <div class="choice-container">
-        <p class= "choice-letter">B.</p>
-        <p class="choice-answer" data-number="2">Choice 2</p>
-      </div>
-      <div class="choice-container">
-        <p class= "choice-letter">C.</p>
-        <p class="choice-answer" data-number="3">Choice 3</p>
-      </div>
-      <div class="choice-container">
-        <p class= "choice-letter">D.</p>
-        <p class="choice-answer" data-number="4">Choice 4</p>
-      </div>
-    </div>
-
-</div>
-</main>
-
-<!--Footer -->
-<footer id="gamefooter" class = 'stickyfooter'> 
-  <ul class="sm-icons">
-  <li>
-    <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)">
-      <i class="fab fa-facebook"></i>
-    </a>
-  </li>
-  <li>
-    <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)">
-      <i class="fab fa-twitter-square"></i>
-    </a>
-  </li>
-  <li>
-    <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our YouTube page (opens in a new tab)">
-      <i class="fab fa-youtube-square"></i>
-    </a>
-  </li>
-  <li>
-    <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)">
-      <i class="fab fa-instagram"></i>
-    </a>
-  </li>
-</ul></footer> 
-
+    </main>
+    <!--Footer -->
+    <footer id="gamefooter" class='stickyfooter'>
+      <ul class="sm-icons">
+        <li>
+          <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)">
+            <i class="fab fa-twitter-square"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our YouTube page (opens in a new tab)">
+            <i class="fab fa-youtube-square"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
     <script src="assets/js/script.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
-</body>
+  </body>
 </html>

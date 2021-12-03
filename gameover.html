@@ -1,75 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" href="#">
     <title>gameover</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-      <!--title with nav back to home page--> 
-        <nav id ="nav-centre" >
-            <a href="index.html" id="b2sheader"><h1> Back To School !   <i class="fas fa-graduation-cap"></i></a> 
-                <p>Test your KS2 subject knowledge.
-                </p>
-            </h1>
-        </nav>
+      <!--title with nav back to home page-->
+      <nav id="nav-centre">
+        <a href="index.html" id="b2sheader">
+          <h1> Back To School ! <i class="fas fa-graduation-cap"></i></h1>
+        </a>
+        <p>Test your KS2 subject knowledge. </p>
+        
+      </nav>
     </header>
-<div class ='container'>
-    <div id='gameover-box' class = "flex-column flex-center" >
-      <!--Display platers score with feedback--> 
-        <h2 id = 'scoreheading' >You scored <span id='player-score'> </span> points!</h2>
-        <p id='feedback'> </p>
-        <!--replay buttons--> 
-        <a href="game.html"  class = 'endbtn'>Play Again</a>
-        <a href="index.html" class = 'endbtn'>Home</a>
-        <!--form --> 
+    <div class='container'>
+      <div id='gameover-box' class="flex-column flex-center">
+        <!--Display platers score with feedback-->
+        <h2 id='scoreheading'>You scored <span id='player-score'></span> points! </h2>
+        <p id='feedback'></p>
+        <!--replay buttons-->
+        <a href="game.html" class='endbtn'>Play Again</a>
+        <a href="index.html" class='endbtn'>Home</a>
+        <!--form -->
         <form class="contact-form" method="POST" action="https://formdump.codeinstitute.net/">
           <h3>Let us know how you've done or What we can improve! <i class="fas fa-envelope-square"></i>
-          </h2>
-          <label for="user_name">User Name:</label>
-          <input id="user_name" class="text-input" type="text" name="user_name" required />
-          <label for="email">Email Address:</label>
-          <input id="email" class="text-input" type="email" name="email_address" required />
-          <label for="scoreform">Your Score:</label>
-          <input id="scoreform" name="score"  type="number" readonly="readonly">
-          <label for="messageinput">Message:</label>
-          <textarea id="messageinput" placeholder="Write your message..." required="" name="message_input"></textarea>
-          <input class="join-button" type="submit" value="Contact Us!" />
+            </h3>
+            <label for="user_name">User Name:</label>
+            <input id="user_name" class="text-input" type="text" name="user_name" required />
+            <label for="email">Email Address:</label>
+            <input id="email" class="text-input" type="email" name="email_address" required />
+            <label for="scoreform">Your Score:</label>
+            <input id="scoreform" name="score" type="number" readonly="readonly">
+            <label for="messageinput">Message:</label>
+            <textarea id="messageinput" placeholder="Write your message..." required="" name="message_input"></textarea>
+            <input class="join-button" type="submit" value="Contact Us!" />
         </form>
-        
-    
+      </div>
     </div>
-
-</div>
-<!--footer--> 
-<footer id= 'gofooter' class = 'stickyfooter'> 
-    <ul class="sm-icons">
-    <li>
-      <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)">
-        <i class="fab fa-facebook"></i>
-      </a>
-    </li>
-    <li>
-      <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)">
-        <i class="fab fa-twitter-square"></i>
-      </a>
-    </li>
-    <li>
-      <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our YouTube page (opens in a new tab)">
-        <i class="fab fa-youtube-square"></i>
-      </a>
-    </li>
-    <li>
-      <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)">
-        <i class="fab fa-instagram"></i>
-      </a>
-    </li>
-  </ul></footer> 
+    <!--footer-->
+    <footer id='gofooter' class='stickyfooter'>
+      <ul class="sm-icons">
+        <li>
+          <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)">
+            <i class="fab fa-twitter-square"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our YouTube page (opens in a new tab)">
+            <i class="fab fa-youtube-square"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
     <script src="assets/js/endgame.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
-</body>
+  </body>
 </html>

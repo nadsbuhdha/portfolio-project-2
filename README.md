@@ -128,7 +128,11 @@ The results shown are based on the users score.
 
 If they have a score greater than 0 the results are displayed in green
 
+![alt text](assets/images/greenanswer.webp 'positive answer')
+
 If the they have a negative score the results are displayed in red 
+
+![alt text](assets/images/redanswer.webp 'minus score')
 
 There are three messages that are dynamically updated depending on the users score.
 
@@ -209,7 +213,9 @@ Form | Form to require users to sumbit all relevant information | Pass
 Score input | Score input disabled for user and automatically updated with user score | Pass
 Form | Form to accurately submit all data | Pass
 
-## Responsiveness 
+## Manuel Testing
+
+### Browser Responsiveness 
 
 Device | Test | Outcome
 --- | --- | ---
@@ -217,6 +223,14 @@ Firefox, Google Chrome, Safari | responsive with no functionality issues | Pass
 Chrone developer tools | responsive with no functionality issues | Pass
 Firefox developer tools | responsive with no functionality issues | Pass
 
+### Device responsiveness 
+
+Device | Test | Outcome
+--- | --- | ---
+Macbook Pro 13 Inch | responsive with no functionality issues | Pass
+Ipad (7th Generation) | responsive with no functionality issues | Pass
+Iphone 12 | responsive with no functionality issues | Pass
+Huawei p30 | responsive with no functionality issues | Pass
 
 
 
