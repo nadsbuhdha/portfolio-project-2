@@ -238,6 +238,31 @@ Ipad (7th Generation) | responsive with no functionality issues | Pass
 Iphone 12 | responsive with no functionality issues | Pass
 Huawei p30 | responsive with no functionality issues | Pass
 
+## W3C Validator Tools
+
+W3C Validator was used to check for error within my HTML code.
+
+The final check presented error free HTML
+
+### Index Page
+
+![alt text](assets/images/index.webp 'index page validated')
+
+### Rules Page
+
+![alt text](assets/images/rules_val.webp 'rules page validated')
+
+### Game Page 
+
+![alt text](assets/images/game_val.webp 'game page validated')
+
+### Game Over Page 
+
+![alt text](assets/images/gamover_val.webp 'game over page validated')
+
+## CSS Validator 
+
+
 
 
 
