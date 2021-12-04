@@ -161,9 +161,15 @@ The score input is automatically updated with the users final score and has a �
 
 ## Technologies used 
 
-HTML
-CSS
-Javascript
+HTML5 – for structuring the website
+CSS3 – for styling the website
+Javascript - for the functionality of the game
+Balsamiq – for wireframes of the site
+Googlefonts – for Indie flower font
+resizepixel – for compressing images and converting image files
+Font awesome – for site icons
+W3C Markup and Jigsaw validation - used to test and validate the HTML and CSS
+Jshint - used to test and validate the javascript files
 
 
 ## Testing
@@ -231,6 +237,9 @@ Macbook Pro 13 Inch | responsive with no functionality issues | Pass
 Ipad (7th Generation) | responsive with no functionality issues | Pass
 Iphone 12 | responsive with no functionality issues | Pass
 Huawei p30 | responsive with no functionality issues | Pass
+
+
+
 
 
 
