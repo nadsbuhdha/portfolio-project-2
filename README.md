@@ -293,7 +293,41 @@ The Metrics returned :
 * Cyclomatic complexity number for this function is 5.
 
 
+## Lighthouse 
+
+Lighthouse was utilised to test the performance, accessibility, best practices and SEO of the website. Both desktop and mobile were tested.
+
+### Desktop Homepage
+
+![alt text](assets/images/home_lighthouse_d.webp 'home page')
+
+#### Desktop Rules Page
+
+![alt text](assets/images/rules_lighthouse_d.webp 'rules page')
+
+#### Desktop Game Page
+
+![alt text](assets/images/game_lighthouse_d.webp 'rules page')
+
+#### Desktop Game Over Page
+
+![alt text](assets/images/endgame_lighthouse_d.webp 'game over page')
+
+### Mobile Home Page
+
+![alt text](assets/images/homemob_lighthouse.webp 'mob home page')
+
+### Mobile Rules Page
+
+![alt text](assets/images/rulesmob_lighthouse.webp 'rules page')
+
+### Mobile Game Page
+
+![alt text](assets/images/gamemob_lighthouse.webp 'game page')
+
+### Mobile Game Over Page
+
+![alt text](assets/images/endgamemob_lighthouse.webp 'game over')
 
 
-
-
+Throughout the site, there is significant accessibility. Font are easy to read and colours adequality contrast. 
