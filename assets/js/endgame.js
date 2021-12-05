@@ -19,5 +19,6 @@ window.onload = function scoreFeedback() {
 		feedback.innerHTML = "I think you need to do a little bit more revising!";
 	}
 	//auto update score form
-	scoreform.value = myScore;
+	let scoreForm = document.getElementById('scoreform');
+	scoreForm.value = myScore;
 };

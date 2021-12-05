@@ -22,7 +22,7 @@ main {
 h1,
 h2,
 h3 {
-  font-family: Indie Flower, sans-serif;
+  font-family: 'Indie Flower', sans-serif;
 }
 
 /* nav styling */
@@ -82,7 +82,7 @@ nav p {
   border-style: solid;
   border-color: black;
   padding: 7px;
-  font-family: Indie Flower, sans-serif;
+  font-family: 'Indie Flower', sans-serif;
   border-radius: 10px;
 }
 
@@ -110,7 +110,7 @@ nav p {
   margin-bottom: 10px;
   border: solid;
   font-size: 30px;
-  font-family: Indie Flower, sans-serif;
+  font-family: 'Indie Flower', sans-serif;
   padding: 10px;
   border-radius: 10px;
 }
@@ -153,7 +153,7 @@ nav p {
 
 .quizcounters h2,
 p {
-  font-family: Indie Flower, sans-serif;
+  font-family: 'Indie Flower', sans-serif;
 }
 
 #counterbox {
@@ -230,7 +230,7 @@ p {
   border-style: solid;
   border-color: black;
   padding: 7px;
-  font-family: Indie Flower, sans-serif;
+  font-family: 'Indie Flower', sans-serif;
   border-radius: 10px;
   max-width: 90px;
   margin-left: auto;
@@ -260,7 +260,7 @@ p {
 
 .contact-form label {
   padding: 3px;
-  font-family: Indie Flower, sans-serif;
+  font-family: 'Indie Flower', sans-serif;
   font-size: 20px;
 }
 
@@ -300,7 +300,7 @@ p {
   height: 40px;
   border-radius: 10px;
   background-color: rgba(255, 208, 224, 255);
-  font-family: Indie Flower, sans-serif;
+  font-family: 'Indie Flower', sans-serif;
   font-size: 18px;
 }
 
@@ -320,7 +320,6 @@ p {
 
 footer {
   background-color: black;
-  color: black;
   clear: both;
 }
 

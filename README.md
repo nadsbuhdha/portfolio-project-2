@@ -262,9 +262,35 @@ The final check presented error free HTML
 
 ## CSS Validator 
 
+The CSS passed through the validator without any errors. 
 
+![alt text](assets/images/css_val.webp 'css validated')
 
+## Javascript Validating 
 
+### sctipt.js
+
+No errors were found when passing the script.js file through JSHint. Two warnings appeared noting 
+that dot notation could be used alternatively. 
+
+![alt text](assets/images/scipt_validator.webp 'script jshint')
+
+Metrics returned :
+* There are 8 functions in this file.
+* Function with the largest signature take 1 arguments, while the median is 1.
+* Largest function has 18 statements in it, while the median is 2.
+* The most complex function has a cyclomatic complexity value of 6 while the median is 1.
+
+### endgame.js
+
+No errors were found when passing the endgame.js file through JSHint. 
+![alt text](assets/images/gameover_validate.webp 'gameover jshint')
+
+The Metrics returned : 
+* There is only one function in this file.
+* It takes no arguments.
+* This function contains 13 statements.
+* Cyclomatic complexity number for this function is 5.
 
 
 
