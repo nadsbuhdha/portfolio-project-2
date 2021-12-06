@@ -1,3 +1,4 @@
+//const variables 
 const question = document.getElementById('question');
 const choices = Array.from(document.getElementsByClassName('choice-answer'));
 const scoreDisplay = document.getElementById('score');
@@ -8,14 +9,14 @@ let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
-// constants /
+// constants 
 const CORRECT_SCORE = 5;
 const INCORRECT_SCORE = 2;
 const MAX_QUESTIONS = 8;
 // sounds 
 let correctSound = new Audio('assets/audio/correct_sound_edited.mp3');
 let incorrectSound = new Audio('assets/audio/incorrect_sound.mp3');
-//** array of questions */
+// array of questions 
 let questions = [{
 	question: '"The beautiful lake." Which grammatical feature is this an example of?',
 	choice1: 'A fronted adverbial',
@@ -164,14 +165,14 @@ let questions = [{
 	choice4: 'carbohydrates',
 	answer: 2
 }, ];
-// start game function /
+// start game function 
 function runGame() {
 	questionCounter = 0;
 	score = 0;
 	availableQuestions = [...questions];
 	newQuestion();
 }
-// question selection and ramomizer /
+// question selection and ramomizer 
 function newQuestion() {
 	questionCounter++;
 	//display question number 

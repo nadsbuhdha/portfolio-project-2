@@ -207,6 +207,7 @@ p {
   margin-bottom: 10px;
 }
 
+/** feedback message */
 #feedback {
   text-align: center;
   font-size: 20px;

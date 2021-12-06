@@ -331,3 +331,36 @@ Lighthouse was utilised to test the performance, accessibility, best practices a
 
 
 Throughout the site, there is significant accessibility. Font are easy to read and colours adequality contrast. 
+
+## Bugs 
+
+### solved bugs 
+
+* During development, when using google developer tools, an error message appeeared. 
+
+![alt text](assets/images/type-error.webp 'type error')
+
+This error was caused by javascript attempting to access a HTML element which was on a different HTML page. This error was solved by splitting the javascript into seperate files and embedding them on relevant HTML pages. 
+
+* During the HTML validation, errors appeared 
+
+![alt text](assets/images/html_error.webp 'html error')
+
+This error was caused by a missing h2 closing tag before the closing a tag. This error was solved by adding the closing h2 tag
+
+* Within the Git command box an error 404 favicon message not found repeatedly appeared. Through searching stackoverflow, I found a way to solve this error was to add "link rel="shortcut icon" href="#" into the head of the HTML files. Once this was added, the error messages ceased. 
+
+
+* A bug which appeared on the game page was that the questions would either go over the max questions or finish before it had reached the amount of questions programmed to do. 
+
+![alt text](assets/images/question_bug.webp 'question bug')
+
+In order to fix this bug a quick escape if statement was created so that the game rerouted to the endgame page once the last question out of the max questions had been answered. 
+
+* The footer for the site presented some issues. Initally, as the content of the page was limited in height, therefore the footer would float towards the middle of the page. 
+
+![alt text](assets/images/footer_bug.webp 'footer bug') 
+
+CSS styling was used to solve this bug. Alternate CSS properties were utilised in order to get the footer to 'stick' to the bottom of the page on each of the HTML pages. 
+
+
