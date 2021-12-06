@@ -7,6 +7,8 @@
 
 ‘Back to school’ is a fun interactive quiz targeted specifically at primary KS2 students. The website aims to offer a simple but fun way for students from year 3 - 6 to test their subject knowledge against questions that are linked to the KS2 primary national curriculum. In the U.K, children between the age of 5 - 16 spend an average of 6.3 hours on screens per day.  Therefore, providing a simple easy access quiz that tests and boosts student’s knowledge can supplement their screen time with an educational, yet fun benefit. 
 
+You can view the website here = [Back To School](https://nadsbuhdha.github.io/portfolio-project-2/)
+
 ## Aims
 The aim of this website is to provide an easy to access, fun, interactive quiz for primary school ks2 students. Questions are based on the KS2 curriculum therefore are accessible for students. User’s scores are displayed so users can try to compete against their own score, answering more correct questions and therefore developing their subject knowledge.
 
@@ -70,7 +72,7 @@ A warm, bright UI was chosen for the colour scheme of this website. As the prima
 
 ## Features 
 
-## Home page
+### Home page
 
 ### Logo navigation
 
@@ -98,7 +100,7 @@ The bottom of each page features a footer which includes social media links. The
 
 ![alt text](assets/images/footer.webp 'footer')
 
-## Game page
+### Game page
 
 ### Score and Question counter
 
@@ -161,15 +163,15 @@ The score input is automatically updated with the users final score and has a �
 
 ## Technologies used 
 
-HTML5 – for structuring the website
-CSS3 – for styling the website
-Javascript - for the functionality of the game
-Balsamiq – for wireframes of the site
-Googlefonts – for Indie flower font
-resizepixel – for compressing images and converting image files
-Font awesome – for site icons
-W3C Markup and Jigsaw validation - used to test and validate the HTML and CSS
-Jshint - used to test and validate the javascript files
+* HTML5 – for structuring the website
+* CSS3 – for styling the website
+* Javascript - for the functionality of the game
+* Balsamiq – for wireframes of the site
+* Googlefonts – for Indie flower font
+* Resizepixel – for compressing images and converting image files
+* Font awesome – for site icons
+* W3C Markup and Jigsaw validation - used to test and validate the HTML and CSS
+* Jshint - used to test and validate the javascript files
 
 
 ## Testing
@@ -301,15 +303,15 @@ Lighthouse was utilised to test the performance, accessibility, best practices a
 
 ![alt text](assets/images/home_lighthouse_d.webp 'home page')
 
-#### Desktop Rules Page
+### Desktop Rules Page
 
 ![alt text](assets/images/rules_lighthouse_d.webp 'rules page')
 
-#### Desktop Game Page
+### Desktop Game Page
 
 ![alt text](assets/images/game_lighthouse_d.webp 'rules page')
 
-#### Desktop Game Over Page
+### Desktop Game Over Page
 
 ![alt text](assets/images/endgame_lighthouse_d.webp 'game over page')
 
@@ -364,3 +366,14 @@ In order to fix this bug a quick escape if statement was created so that the gam
 CSS styling was used to solve this bug. Alternate CSS properties were utilised in order to get the footer to 'stick' to the bottom of the page on each of the HTML pages. 
 
 
+## Deplotment 
+
+The site was developed using Gitpod, which was then commited and pushed to GitHub.
+The site was deployed to GitHub pages. The following steps were used to deploy :
+
+* In the GitHub repository, navigate to the Settings tab
+* Select the Pages sub-menu
+* From the source section drop-down menu, select the Master Branch, and then hit save
+* Once the master branch has been selected, the page provided a link to the live website.
+
+The link to the live website is [here](https://nadsbuhdha.github.io/portfolio-project-2/)
