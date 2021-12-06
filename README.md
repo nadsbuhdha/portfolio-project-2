@@ -7,7 +7,7 @@
 
 ‘Back to school’ is a fun interactive quiz targeted specifically at primary KS2 students. The website aims to offer a simple but fun way for students from year 3 - 6 to test their subject knowledge against questions that are linked to the KS2 primary national curriculum. In the U.K, children between the age of 5 - 16 spend an average of 6.3 hours on screens per day.  Therefore, providing a simple easy access quiz that tests and boosts student’s knowledge can supplement their screen time with an educational, yet fun benefit. 
 
-You can view the website here = [Back To School](https://nadsbuhdha.github.io/portfolio-project-2/)
+You can view the website here - [Back To School](https://nadsbuhdha.github.io/portfolio-project-2/)
 
 ## Aims
 The aim of this website is to provide an easy to access, fun, interactive quiz for primary school ks2 students. Questions are based on the KS2 curriculum therefore are accessible for students. User’s scores are displayed so users can try to compete against their own score, answering more correct questions and therefore developing their subject knowledge.
@@ -377,3 +377,34 @@ The site was deployed to GitHub pages. The following steps were used to deploy :
 * Once the master branch has been selected, the page provided a link to the live website.
 
 The link to the live website is [here](https://nadsbuhdha.github.io/portfolio-project-2/)
+
+
+## Finished Product 
+
+### Homepage 
+
+![alt text](assets/images/homepage_finished.webp 'Home Page')
+
+### Rules Page
+
+![alt text](assets/images/rules_page_finished.webp 'Rules Page')
+
+### Game Page
+
+![alt text](assets/images/game_page.webp 'Game Page')
+
+### Game Over Page
+
+![alt text](assets/images/endgame_finished.webp 'Game Over Page')
+
+![alt text](assets/images/form_finished.webp 'form game over page')
+
+## Credits
+
+* The background image for the site was taken from https://www.freepik.com/
+
+* Some of the questions for the quiz were taken from https://www.bbc.co.uk/bitesize/articles/z24mqhv
+
+* Two youtube tutorials were used to kick start and support the quiz project https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=3064s and https://www.youtube.com/watch?v=riDzcEQbX6k
+
+* https://stackoverflow.com/ was used to help find solutions to problems
