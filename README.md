@@ -201,8 +201,8 @@ Question Hud | Question hud to indicate what question the player is on and updat
 Scorehud | Score hud to update in real-time depending on correct or incorrect answer | Pass
 Question | New question to generate each time a question is answered | Pass
 Multiple Choice Answers | Answers to increase insize when hovered hover | Pass
-Multiple Choice Answers | Answers to highlight green if correct and Red if incorrect | Pass
-Multiple Choice Answers | Sound effect to play whether the question is correct or incorrect | Pass
+Multiple Choice Answers | Answers to highlight green if correct and red if incorrect | Pass
+Multiple Choice Answers | Sound effects to play whether the question is correct or incorrect | Pass
 Final question | Final question to link to a 'gameover' page | Pass
 
 
@@ -210,7 +210,7 @@ Final question | Final question to link to a 'gameover' page | Pass
 Feature | Test | Outcome
 --- | --- | ---
 Score update | Users locally stored score to be displayed | Pass
-Score update | Score to display if a positive score and red if a negative score | Pass
+Score update | Score to display green if a positive score and red if a negative score | Pass
 Game Over Message | Different game over message to be displayed to user depending on the score | Pass
 Play again button | Play again and home buttons to increase in size when hovered hover | Pass
 
@@ -349,14 +349,14 @@ This error was caused by javascript attempting to access a HTML element which wa
 
 This error was caused by a missing h2 closing tag before the closing a tag. This error was solved by adding the closing h2 tag
 
-* Within the Git command box an error 404 favicon message not found repeatedly appeared. Through searching stackoverflow, I found a way to solve this error was to add "link rel="shortcut icon" href="#" into the head of the HTML files. Once this was added, the error messages ceased. 
+* Within the Git command box, an error 404 favicon message not found repeatedly appeared. Through searching stackoverflow, I found a way to solve this error was to add "link rel="shortcut icon" href="#" into the head of the HTML files. Once this was added, the error messages ceased. 
 
 
 * A bug which appeared on the game page was that the questions would either go over the max questions or finish before it had reached the amount of questions programmed to do. 
 
 ![alt text](assets/images/question_bug.webp 'question bug')
 
-In order to fix this bug a quick escape if statement was created so that the game rerouted to the endgame page once the last question out of the max questions had been answered. 
+In order to fix this bug, a quick escape if statement was created so that the game rerouted to the endgame page once the last question out of the max questions had been answered. 
 
 * The footer for the site presented some issues. Initially, as the content of the page was limited in height, therefore the footer would float towards the middle of the page. 
 
