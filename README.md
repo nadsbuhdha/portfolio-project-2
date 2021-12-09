@@ -13,11 +13,11 @@ You can view the website here - [Back To School](https://nadsbuhdha.github.io/po
 The aim of this website is to provide an easy to access, fun, interactive quiz for primary school ks2 students. Questions are based on the KS2 curriculum therefore are accessible for students. User’s scores are displayed so users can try to compete against their own score, answering more correct questions and therefore developing their subject knowledge.
 
 ## Target Audience
-The primary target audience for the site is ks2 children who want a fun way to revise and test their knowledge. A secondary target audience is parents of students who would like to engage with their child’s learning. As well as teacher who would like to audit their subject knowledge.
+The primary target audience for the site is ks2 children who want a fun way to revise and test their knowledge. A secondary target audience is parents of students who would like to engage with their child’s learning. As well as teachers who would like to audit their subject knowledge.
 
 ## User Expectations
 
-As the primary target audience for the site is children, for this website the following user expectations were considered when creating the site:
+As the primary target audience for the site is children, the following user expectations were considered when creating the site:
 * Easy to access, simple and clear
 * Responsive as students will be accessing on multiple devices
 * Questions in quiz should be relevant to the national curriculum 
@@ -29,7 +29,7 @@ A warm, bright UI was chosen for the colour scheme of this website. As the prima
 
 ## Fonts
 
-‘Indie flower’ was used as the primary font for this website. As this website is aimed for primary school students, I wanted a font that emulated handwriting as students at this age handwrite the majority of their work. Having a handwriting styled font would add a layer of familiarity to the website. Indie flower was also chosen as comparatively to other handwritten styled fonts, as it appeared more legible and readable. I chose to use ‘Indie flower’ for both the h tags and the p tags as I wanted the consistency of the handwritten theme throughout the website and having two separate styled handwritten themes appeared incongruent. ‘san-serif’ was chosen as a backup font for the site should indie flower fail to load. 
+‘Indie flower’ was used as the primary font for this website. As this website is aimed for primary school students, I wanted a font that emulated handwriting as students at this age handwrite the majority of their work. Having a handwriting styled font would add a layer of familiarity to the website. Indie flower was also chosen as, comparatively to other handwritten styled fonts, it appeared more legible and readable. I chose to use ‘Indie flower’ for both the h tags and the p tags as I wanted the consistency of the handwritten theme throughout the website and having two separate styled handwritten themes appeared incongruent. ‘san-serif’ was chosen as a backup font for the site should indie flower fail to load. 
 
 ## Wireframes 
 
@@ -82,7 +82,7 @@ The home page features a logo which directly tells the user what is the name and
 
 ### Homepage buttons
 
-The home page features two buttons which direct the user either to start the game or the rules page which has additional information for the user should they need it. 
+The home page features two buttons which direct the user either to start the game or the rules page, which has additional information for the user, should they need it. 
 
 ![alt text](assets/images/homepage-buttons.webp 'home page buttons')
 
@@ -110,15 +110,15 @@ Above the game box, the site features a score counter and a question counter. Th
 
 ### Gamebox questions
 
-Within the game box, questions, which have been stored in an array, are randomly selected for the user to answer. A multiple choice of 4 answers is then presented to the user and they can pick one of the four answers. When hovered over, the multiple-choice answers increase in size to display to the user which choice they are about to choose. 
+Within the game box, questions, which have been stored in an array, are randomly selected for the user to answer. A multiple choice of 4 answers is then presented to the user and they can pick one of the four answers. When hovered over, the multiple-choice answers increase in size to display to the user which choice they are about to click on. 
 
 ![alt text](assets/images/quiz-box.webp 'gamebox')
 
-When a correct answer is chosen. The answer is highlighted green and a correct answer sound effect is played.
+When a correct answer is chosen, the answer is highlighted green and a correct answer sound effect is played.
 
 ![alt text](assets/images/correct-answer.webp 'correct answer')
 
-When the incorrect answer is chosen. The answer is highlighted red and an incorrect answer sound effect is played. 
+When the incorrect answer is chosen, the answer is highlighted red and an incorrect answer sound effect is played. 
 
 ![alt text](assets/images/incorrect-answer.webp 'incorrect answer')
 
@@ -154,7 +154,7 @@ If the user scores above 20, this message is shown:
 Two buttons are shown to allow the user to navigate back to the home screen or play again. 
 ![alt text](assets/images/playagain.webp 'high score')
 
-A contact form is featured which allows users to enter a user name, email,and message so they can send feedback about their experience of the game. The contact form includes a mandatory field where users must input their information in order to contact.
+A contact form is featured which allows users to enter a user name, email and message so they can send feedback about their experience of the game. The contact form includes a mandatory field where users must input their information in order to submit.
 
 ![alt text](assets/images/form.webp 'contact form')
 
@@ -181,8 +181,8 @@ Feature | Test | Outcome
 --- | --- | ---
 Logo | Logo to link back to homepage | Pass
 Play game button | Play button to link to game | Pass
-How to play buttom | How to play button to link to about and rules page | Pass
-Buttons | Buttons to increase insize when hovered hover | Pass
+How to play button | How to play button to link to about and rules page | Pass
+Buttons | Buttons to increase in size when hovered hover | Pass
 
 
 ### Footer 
@@ -198,7 +198,7 @@ Social media links | Links to open in a new page when clicked on | Pass
 Feature | Test | Outcome
 --- | --- | ---
 Question Hud | Question hud to indicate what question the player is on and update when next question appears | pass 
-Scorehud | Score hud to update in realtime depending on correct or incorrect answer | Pass
+Scorehud | Score hud to update in real-time depending on correct or incorrect answer | Pass
 Question | New question to generate each time a question is answered | Pass
 Multiple Choice Answers | Answers to increase insize when hovered hover | Pass
 Multiple Choice Answers | Answers to highlight green if correct and Red if incorrect | Pass
@@ -212,12 +212,12 @@ Feature | Test | Outcome
 Score update | Users locally stored score to be displayed | Pass
 Score update | Score to display if a positive score and red if a negative score | Pass
 Game Over Message | Different game over message to be displayed to user depending on the score | Pass
-Play again button | Play again and home buttons to increase insize when hovered hover | Pass
+Play again button | Play again and home buttons to increase in size when hovered hover | Pass
 
 ### Form
 Feature | Test | Outcome
 --- | --- | ---
-Form | Form to require users to sumbit all relevant information | Pass
+Form | Form to require users to submit all relevant information | Pass
 Score input | Score input disabled for user and automatically updated with user score | Pass
 Form | Form to accurately submit all data | Pass
 
@@ -228,7 +228,7 @@ Form | Form to accurately submit all data | Pass
 Device | Test | Outcome
 --- | --- | ---
 Firefox, Google Chrome, Safari | responsive with no functionality issues | Pass
-Chrone developer tools | responsive with no functionality issues | Pass
+Chrome developer tools | responsive with no functionality issues | Pass
 Firefox developer tools | responsive with no functionality issues | Pass
 
 ### Device responsiveness 
@@ -331,7 +331,6 @@ Lighthouse was utilised to test the performance, accessibility, best practices a
 
 ![alt text](assets/images/endgamemob_lighthouse.webp 'game over')
 
-
 Throughout the site, there is significant accessibility. Font are easy to read and colours adequality contrast. 
 
 ## Bugs 
@@ -342,7 +341,7 @@ Throughout the site, there is significant accessibility. Font are easy to read a
 
 ![alt text](assets/images/type-error.webp 'type error')
 
-This error was caused by javascript attempting to access a HTML element which was on a different HTML page. This error was solved by splitting the javascript into seperate files and embedding them on relevant HTML pages. 
+This error was caused by javascript attempting to access a HTML element which was on a different HTML page. This error was solved by splitting the javascript into separate files and embedding them on relevant HTML pages. 
 
 * During the HTML validation, errors appeared 
 
@@ -359,16 +358,16 @@ This error was caused by a missing h2 closing tag before the closing a tag. This
 
 In order to fix this bug a quick escape if statement was created so that the game rerouted to the endgame page once the last question out of the max questions had been answered. 
 
-* The footer for the site presented some issues. Initally, as the content of the page was limited in height, therefore the footer would float towards the middle of the page. 
+* The footer for the site presented some issues. Initially, as the content of the page was limited in height, therefore the footer would float towards the middle of the page. 
 
 ![alt text](assets/images/footer_bug.webp 'footer bug') 
 
 CSS styling was used to solve this bug. Alternate CSS properties were utilised in order to get the footer to 'stick' to the bottom of the page on each of the HTML pages. 
 
 
-## Deplotment 
+## Deployment 
 
-The site was developed using Gitpod, which was then commited and pushed to GitHub.
+The site was developed using Gitpod, which was then committed and pushed to GitHub.
 The site was deployed to GitHub pages. The following steps were used to deploy :
 
 * In the GitHub repository, navigate to the Settings tab

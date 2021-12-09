@@ -9,7 +9,7 @@ let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
-// constants 
+// question and score tracker
 const CORRECT_SCORE = 5;
 const INCORRECT_SCORE = 2;
 const MAX_QUESTIONS = 8;

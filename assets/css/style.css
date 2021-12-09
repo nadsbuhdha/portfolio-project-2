@@ -276,6 +276,7 @@ p {
   border-width: thin;
   border-radius: 5px;
   margin-top: 5px;
+  padding-left: 3px;
 }
 
 #scoreform {
@@ -286,7 +287,8 @@ p {
 #messageinput {
   border-style: solid;
   justify-content: center;
-  width: 350px;
+  width: 200px;
+  height: 80px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
@@ -408,10 +410,6 @@ footer li i {
   }
 
   .contact-form h3 {
-    width: 230px;
-  }
-
-  #messageinput {
     width: 230px;
   }
 }
