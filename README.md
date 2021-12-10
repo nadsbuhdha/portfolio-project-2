@@ -10,10 +10,10 @@
 You can view the website here - [Back To School](https://nadsbuhdha.github.io/portfolio-project-2/)
 
 ## Aims
-The aim of this website is to provide an easy to access, fun, interactive quiz for primary school ks2 students. Questions are based on the KS2 curriculum therefore are accessible for students. User’s scores are displayed so users can try to compete against their own score, answering more correct questions and therefore developing their subject knowledge.
+The aim of this website is to provide an easy to access, fun and interactive quiz for primary school KS2 students. Questions are based on the KS2 curriculum therefore are accessible for students. User’s scores are displayed so users can try to compete against their own score, answering more correct questions and therefore developing their subject knowledge.
 
 ## Target Audience
-The primary target audience for the site is ks2 children who want a fun way to revise and test their knowledge. A secondary target audience is parents of students who would like to engage with their child’s learning. As well as teachers who would like to audit their subject knowledge.
+The primary target audience for the site is KS2 children who want a fun way to revise and test their knowledge. A secondary target audience is parents of students who would like to engage with their child’s learning. As well as teachers who would like to audit their subject knowledge.
 
 ## User Expectations
 
@@ -76,7 +76,7 @@ A warm, bright UI was chosen for the colour scheme of this website. As the prima
 
 ### Logo navigation
 
-The home page features a logo which directly tells the user what is the name and purpose of the website. The logo can also be clicked on in order to navigate back the index page. This allows users to transfer back to the index page without using the back buttons. 
+The home page features a logo which directly tells the user what the name and purpose of the website is. The logo can also be clicked on in order to navigate back the index page. This allows users to transfer back to the index page without using the back buttons. 
 
 ![alt text](assets/images/logo-nav.webp 'nav logo') 
 

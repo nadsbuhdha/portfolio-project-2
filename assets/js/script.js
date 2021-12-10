@@ -39,7 +39,7 @@ let questions = [{
 	choice4: 'polar Bear',
 	answer: 1
 }, {
-	question: 'Can you crack this calculation? 20 - 5 × 4 ÷ 2 + 12 =',
+	question: 'Can you crack this calculation? 20 - 5 x 4 ÷ 2 + 12 =',
 	choice1: '-2',
 	choice2: '22',
 	choice3: '42',
@@ -53,7 +53,7 @@ let questions = [{
 	choice4: "Their on there toys.",
 	answer: 2
 }, {
-	question: 'What does ‘Viking’ translate to in Old Norse?',
+	question: 'What does "Viking" translate to in Old Norse?',
 	choice1: 'A Pirate Raid',
 	choice2: 'Water Traders',
 	choice3: 'A fierce sea',
