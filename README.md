@@ -404,6 +404,7 @@ The link to the live website is [here](https://nadsbuhdha.github.io/portfolio-pr
 
 * Some of the questions for the quiz were taken from https://www.bbc.co.uk/bitesize/articles/z24mqhv
 
-* Two youtube tutorials were used to kick start and support the quiz project https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=3064s and https://www.youtube.com/watch?v=riDzcEQbX6k
+* Two youtube tutorials were used to kick start and support the quiz project in regards to the javascript https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=3064s and https://www.youtube.com/watch?v=riDzcEQbX6k
 
 * https://stackoverflow.com/ was used to help find solutions to problems
+
